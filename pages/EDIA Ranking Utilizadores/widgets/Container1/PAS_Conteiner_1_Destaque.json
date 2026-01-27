@@ -1,14 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "fontFamily"
     }
@@ -16,37 +10,37 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
-  "fontStyle": "BOLD",
+  "fontSize": "1rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "aranrxpp2a",
-  "leftColumn": 0,
+  "key": "a35yegm7q9",
+  "leftColumn": 8,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
-  "originalTopRow": 1,
+  "originalBottomRow": 15,
+  "originalTopRow": 10,
   "overflow": "NONE",
-  "parentColumnSpace": 1.845703125,
-  "parentId": "fwtdr5kca6",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "lbjrjlzxq6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 56,
   "shouldTruncate": false,
-  "text": "Posição no Ranking",
+  "text": "Nesta área poderá identificar os utilizadores com melhores resultados ao Referencial do Programa Alqueva Sustentável, a nível global e dos domínios de sustentabilidade definido.",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
-  "topRow": 1,
+  "textColor": "#231f20",
+  "topRow": 10,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "kelufi0uyf",
-  "widgetName": "Txt_tiltle5"
+  "widgetId": "r2fhuxuzlj",
+  "widgetName": "PAS_Conteiner_1_Destaque"
 }

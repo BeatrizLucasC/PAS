@@ -4,12 +4,6 @@
   "bottomRow": 46,
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
       "key": "fontFamily"
     }
   ],
@@ -17,7 +11,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
-  "fontStyle": "BOLD",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "aranrxpp2a",
@@ -42,7 +36,7 @@
   "shouldTruncate": false,
   "text": "Progressão em relação ao ano anterior",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
+  "textColor": "#15803d",
   "topRow": 42,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

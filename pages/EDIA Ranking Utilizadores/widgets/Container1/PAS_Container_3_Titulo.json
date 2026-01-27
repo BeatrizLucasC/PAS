@@ -1,14 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "fontFamily"
     }
@@ -16,37 +10,37 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
-  "fontStyle": "BOLD",
+  "fontSize": "1.875rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "aranrxpp2a",
+  "key": "a35yegm7q9",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 5,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
-  "originalTopRow": 1,
+  "originalBottomRow": 10,
+  "originalTopRow": 5,
   "overflow": "NONE",
-  "parentColumnSpace": 1.845703125,
-  "parentId": "6b1nkczy57",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "lbjrjlzxq6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 60,
   "shouldTruncate": false,
-  "text": "Posição no Ranking",
+  "text": "Consulte Aqui a Posição dos Utilizadores",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
-  "topRow": 1,
+  "textColor": "#231f20",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "zk73gahsgb",
-  "widgetName": "Txt_tilte3"
+  "widgetId": "8w2hmmea6y",
+  "widgetName": "PAS_Container_3_Titulo"
 }

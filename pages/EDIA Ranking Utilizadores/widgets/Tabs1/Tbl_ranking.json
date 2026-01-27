@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 38,
+  "bottomRow": 39,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -51,6 +51,21 @@
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.pontuacao.computedValue"
+    },
+    {
+      "key": "primaryColumns.ano.computedValue"
+    },
+    {
+      "key": "primaryColumns.posicao.computedValue"
+    },
+    {
+      "key": "primaryColumns.id_utilizador.computedValue"
+    },
+    {
       "key": "accentColor"
     },
     {
@@ -58,21 +73,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "primaryColumns.id_utilizador.computedValue"
-    },
-    {
-      "key": "primaryColumns.ano.computedValue"
-    },
-    {
-      "key": "primaryColumns.pontuacao.computedValue"
-    },
-    {
-      "key": "tableData"
-    },
-    {
-      "key": "primaryColumns.posicao.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -237,7 +237,7 @@
   "searchKey": "",
   "tableData": "{{Qry_rankingGlobal.data}}",
   "textSize": "0.875rem",
-  "topRow": 5,
+  "topRow": 6,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

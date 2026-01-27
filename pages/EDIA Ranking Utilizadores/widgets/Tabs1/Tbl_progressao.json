@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 81,
+  "bottomRow": 84,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -59,28 +59,22 @@
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
-      "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
-    },
-    {
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.id_utilizador.computedValue"
+      "key": "primaryColumns.pontuacao_anterior.computedValue"
     },
     {
-      "key": "primaryColumns.anos.computedValue"
+      "key": "primaryColumns.posicao.computedValue"
     },
     {
       "key": "primaryColumns.pontuacao_atual.computedValue"
     },
     {
-      "key": "primaryColumns.pontuacao_anterior.computedValue"
+      "key": "primaryColumns.anos.computedValue"
+    },
+    {
+      "key": "primaryColumns.id_utilizador.computedValue"
     },
     {
       "key": "primaryColumns.variacao_abs.computedValue"
@@ -89,7 +83,13 @@
       "key": "primaryColumns.variacao_pct.computedValue"
     },
     {
-      "key": "primaryColumns.posicao.computedValue"
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
@@ -347,7 +347,7 @@
   "searchKey": "",
   "tableData": "{{Qry_progressaoGlobal.data}}",
   "textSize": "0.875rem",
-  "topRow": 46,
+  "topRow": 49,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

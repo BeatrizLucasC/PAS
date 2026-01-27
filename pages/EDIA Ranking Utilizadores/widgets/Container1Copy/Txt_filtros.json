@@ -1,23 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "BOLD",
+  "fontSize": "1.25rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "3vq4rrdn3g",
@@ -30,11 +24,11 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 7,
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
   "overflow": "NONE",
   "parentColumnSpace": 10.930908203125,
-  "parentId": "lbjrjlzxq6",
+  "parentId": "caf9x1fass",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -42,8 +36,8 @@
   "shouldTruncate": false,
   "text": "Selecione um ano no filtro seguinte:",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 7,
+  "textColor": "#15803d",
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

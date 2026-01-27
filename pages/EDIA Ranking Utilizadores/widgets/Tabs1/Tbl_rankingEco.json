@@ -52,6 +52,24 @@
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.pontuacao.computedValue"
+    },
+    {
+      "key": "primaryColumns.ano.computedValue"
+    },
+    {
+      "key": "primaryColumns.posicao.computedValue"
+    },
+    {
+      "key": "primaryColumns.dominio.computedValue"
+    },
+    {
+      "key": "primaryColumns.id_utilizador.computedValue"
+    },
+    {
       "key": "accentColor"
     },
     {
@@ -59,24 +77,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "primaryColumns.id_utilizador.computedValue"
-    },
-    {
-      "key": "primaryColumns.ano.computedValue"
-    },
-    {
-      "key": "primaryColumns.pontuacao.computedValue"
-    },
-    {
-      "key": "tableData"
-    },
-    {
-      "key": "primaryColumns.posicao.computedValue"
-    },
-    {
-      "key": "primaryColumns.dominio.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
