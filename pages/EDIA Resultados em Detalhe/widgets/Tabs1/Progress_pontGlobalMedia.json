@@ -9,14 +9,11 @@
     },
     {
       "key": "progress"
-    },
-    {
-      "key": "fillColor"
     }
   ],
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
-  "fillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "fillColor": "#233444",
   "isCanvas": false,
   "isIndeterminate": false,
   "isLoading": false,

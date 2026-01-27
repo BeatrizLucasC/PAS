@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 18,
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
@@ -24,8 +24,8 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 15,
-  "originalTopRow": 10,
+  "originalBottomRow": 18,
+  "originalTopRow": 13,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
   "parentId": "lbjrjlzxq6",
@@ -37,7 +37,7 @@
   "text": "Nesta área poderá identificar os utilizadores com melhores resultados ao Referencial do Programa Alqueva Sustentável, a nível global e dos domínios de sustentabilidade definido.",
   "textAlign": "CENTER",
   "textColor": "#231f20",
-  "topRow": 10,
+  "topRow": 13,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

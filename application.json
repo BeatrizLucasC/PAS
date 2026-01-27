@@ -42,15 +42,11 @@
       "isDefault": false
     },
     {
-      "id": "EDIA Ranking Utilizadores",
-      "isDefault": false
-    },
-    {
-      "id": "EDIA Resultados em Detalhe",
-      "isDefault": false
-    },
-    {
       "id": "Comparação Média",
+      "isDefault": false
+    },
+    {
+      "id": "EDIA Home",
       "isDefault": false
     },
     {
@@ -58,7 +54,11 @@
       "isDefault": false
     },
     {
-      "id": "EDIA Home",
+      "id": "EDIA Resultados em Detalhe",
+      "isDefault": false
+    },
+    {
+      "id": "EDIA Ranking Utilizadores",
       "isDefault": false
     }
   ],

@@ -1,8 +1,14 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 30,
   "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
     {
       "key": "fontFamily"
     }
@@ -10,37 +16,37 @@
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
+  "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "3vq4rrdn3g",
+  "key": "a35yegm7q9",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 4,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 26,
+  "originalBottomRow": 30,
   "originalTopRow": 22,
   "overflow": "NONE",
-  "parentColumnSpace": 10.930908203125,
-  "parentId": "caf9x1fass",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "j35kblo95a",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 29,
   "shouldTruncate": false,
-  "text": "Selecione um ano no filtro seguinte:",
+  "text": "Os resultados aprensentados poderão resultar de formulários que não estão validados. Esta informação estará presente no separador <b>\"Página de controlo\"</b> e formulários podem ser validados na página <b>\"Validar e consultar respostas\"</b>.",
   "textAlign": "LEFT",
-  "textColor": "#15803d",
-  "topRow": 1,
+  "textColor": "#231f20",
+  "topRow": 22,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "36b7g3jfi3",
-  "widgetName": "Txt_filtros"
+  "widgetId": "mcdhgmymku",
+  "widgetName": "PAS_Conteiner_1_DestaqueCopyCopy"
 }
