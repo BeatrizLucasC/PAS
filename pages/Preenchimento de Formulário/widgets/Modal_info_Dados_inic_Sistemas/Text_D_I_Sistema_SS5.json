@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 57,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.75rem",
+  "fontStyle": "ITALIC",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yj3vz50bwh",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "originalBottomRow": 57,
+  "originalTopRow": 50,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "xlfy87ph66",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">A que utiliza o pastoreio no seu processo produtivo e cujo encabeçamento não ultrapasse 1,4 CN/hectare, podendo este valor ser estendido até 2,8 CN/hectare desde que sejam assegurados dois terços das necessidades alimentares do efetivo em pastoreio, bem como a que desenvolve a atividade pecuária com baixa intensidade produtiva ou com baixa densidade animal, no caso das espécies pecuárias não herbívoras;\" (de acordo com as alíneas x) e y) do Artigo 2º do Decreto-Lei n.º 81/2013, de 14 de junho.)",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 50,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "e2oqyk2r49",
+  "widgetName": "Text_D_I_Sistema_SS5"
+}

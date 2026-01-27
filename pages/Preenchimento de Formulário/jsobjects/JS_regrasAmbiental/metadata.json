@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_a5a912c8-8876-454d-aae4-1ac140bc443f",
+  "id": "Preenchimento de Formulário_JS_regrasAmbiental",
+  "unpublishedCollection": {
+    "name": "JS_regrasAmbiental",
+    "pageId": "Preenchimento de Formulário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "answers",
+        "value": "{}"
+      }
+    ]
+  }
+}

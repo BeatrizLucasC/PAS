@@ -1,0 +1,4 @@
+SELECT DISTINCT ano
+FROM vw_score_form_pergunta
+ORDER BY ano DESC;
+

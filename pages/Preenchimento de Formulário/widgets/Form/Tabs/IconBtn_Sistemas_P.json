@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "buttonColor": "#8ac040",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "info-sign",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qz1nenfm2q",
+  "leftColumn": 60,
+  "minWidth": 50,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(Modal_info_Dados_inic_Sistemas.name);}}",
+  "parentColumnSpace": 20.36572265625,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 12,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vsem62jrtg",
+  "widgetName": "IconBtn_Sistemas_P"
+}

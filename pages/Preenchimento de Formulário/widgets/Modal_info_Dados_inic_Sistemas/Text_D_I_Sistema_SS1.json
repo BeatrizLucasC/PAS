@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.75rem",
+  "fontStyle": "ITALIC",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yj3vz50bwh",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "originalBottomRow": 18,
+  "originalTopRow": 12,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "xlfy87ph66",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">Culturas não integradas em rotação, com exclusão das pastagens permanentes, que ocupam as terras por cinco anos ou mais e dão origem a várias colheitas e que apresentam uma determinada densidade de plantação. (ANEXO I do Despacho Normativo, n.º 1/2019, de 18 de janeiro)",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 12,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "mhz4gdyuv4",
+  "widgetName": "Text_D_I_Sistema_SS1"
+}

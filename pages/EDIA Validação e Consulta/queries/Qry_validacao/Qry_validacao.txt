@@ -1,0 +1,23 @@
+WITH visiveis AS (
+  -- ids_json é um array JSON de ids_pergunta (ex.: ["1.1.1.1","1.1.1.2"])
+  SELECT value AS id_pergunta
+  FROM jsonb_array_elements_text( ({{ this.params.ids_json || '[]' }})::jsonb ) AS t(value)
+),
+latest AS (
+  -- Seleciona a última resposta NÃO validada por pergunta, utilizador e ano
+  SELECT DISTINCT ON (r.id_pergunta)
+    r.id_resposta
+  FROM respostas r
+  JOIN visiveis v ON v.id_pergunta = r.id_pergunta
+  WHERE
+    r.id_utilizador = {{Tbl_resumo.selectedRow.nif}}
+    AND r.ano = {{Select_year.selectedOptionValue}}
+    AND (r.validacao IS NULL OR r.validacao = 'N')
+  ORDER BY r.id_pergunta, r.data_hora_submissao DESC
+)
+UPDATE respostas r
+SET
+  validacao = 'S',
+  data_hora_validacao = (NOW() AT TIME ZONE 'UTC'),
+  tecnico_validacao = {{appsmith.store.autenticacao.nif}}  -- NIF do técnico EDIA autenticado
+WHERE r.id_resposta IN (SELECT id_resposta FROM latest);

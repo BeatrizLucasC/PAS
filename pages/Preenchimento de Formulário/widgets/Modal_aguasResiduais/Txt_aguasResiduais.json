@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.75rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0p107omwc7",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 19,
+  "originalTopRow": 8,
+  "overflow": "NONE",
+  "parentId": "r6gz2zkf14",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">Para efeitos desta avaliação, consideram-se águas residuais as águas resultantes da lavagem de filtros, máquinas, equipamentos e instalações agrícolas, bem como outras operações de limpeza ou manutenção que originem águas com resíduos de produtos fitofarmacêuticos, fertilizantes, óleos, sedimentos ou matérias orgânicas. Salienta-se que não se incluem neste enquadramento as águas utilizadas na rega, as quais não são objeto desta análise.",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 8,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "p2zjc8km10",
+  "widgetName": "Txt_aguasResiduais"
+}

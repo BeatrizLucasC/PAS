@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a35yegm7q9",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "originalBottomRow": 41,
+  "originalTopRow": 23,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "5afw673xkc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">A sua operacionalização concretiza-se através do referencial, um instrumento de avaliação concebido para apoiar as explorações agrícolas na análise estruturada do seu desempenho em matéria de sustentabilidade. O referencial permite caracterizar e comparar o desempenho, estando organizado em três domínios de intervenção - ambiental, social e económico - que se desdobram em doze categorias, suportadas por um conjunto de indicadores ajustados às diferentes realidades produtivas. A resposta ao referencial proporciona uma leitura integrada do desempenho da exploração, evidenciando os aspetos com resultados mais favoráveis e identificando oportunidades de melhoria nos vários domínios.<p>",
+  "textAlign": "LEFT",
+  "textColor": "#231f20",
+  "topRow": 23,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "2dqtm2qyb0",
+  "widgetName": "PAS_Container_4_Texto"
+}

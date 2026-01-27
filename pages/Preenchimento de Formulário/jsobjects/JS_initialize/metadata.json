@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_db702214-dfd5-4d9f-b453-997f10d715bc",
+  "id": "Preenchimento de Formulário_JS_initialize",
+  "unpublishedCollection": {
+    "name": "JS_initialize",
+    "pageId": "Preenchimento de Formulário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "certSelected",
+        "value": "[]"
+      },
+      {
+        "name": "spSelected",
+        "value": "[]"
+      },
+      {
+        "name": "dimSelected",
+        "value": "\"\""
+      }
+    ]
+  }
+}

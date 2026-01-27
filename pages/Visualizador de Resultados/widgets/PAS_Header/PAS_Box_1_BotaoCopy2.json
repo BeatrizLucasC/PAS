@@ -1,0 +1,109 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.menuItems.menuItemjtierhlnw3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.menuItems.menuItemjmwdd0crbi.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.menuItems.menuItemonitffbukz.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.menuItems.menuItem8zni4d6rki.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#ffffff",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "menu",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "",
+      "menuItems": {
+        "menuItem8zni4d6rki": {
+          "id": "menuItem8zni4d6rki",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Comparação com Média",
+          "onClick": "{{navigateTo('Comparação Média', {}, 'SAME_WINDOW');}}",
+          "widgetId": "w91p9fj557"
+        },
+        "menuItemjmwdd0crbi": {
+          "id": "menuItemjmwdd0crbi",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Preenchimento de Formulário",
+          "onClick": "{{navigateTo('Preenchimento de Formulário', {}, 'SAME_WINDOW');}}",
+          "widgetId": "nn7ufevxku"
+        },
+        "menuItemjtierhlnw3": {
+          "id": "menuItemjtierhlnw3",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Home Page",
+          "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+          "widgetId": "rhjk5pqj56"
+        },
+        "menuItemonitffbukz": {
+          "id": "menuItemonitffbukz",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Visualizador de Resultados",
+          "onClick": "{{navigateTo('Visualizador de Resultados', {}, 'SAME_WINDOW');}}",
+          "widgetId": "c81aiyycme"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7m9sh3uz3q",
+  "leftColumn": 60,
+  "minWidth": 450,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 15.78515625,
+  "parentId": "sprrnavugy",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 1,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "c2bnb3ihhg",
+  "widgetName": "PAS_Box_1_BotaoCopy2"
+}

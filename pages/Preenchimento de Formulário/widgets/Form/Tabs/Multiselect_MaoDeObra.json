@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "bottomRowBeforeCollapse": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Qry_getFiltros.data[0]?.mao_de_obra?.split(\",\")))(Multiselect_MaoDeObra.options, Multiselect_MaoDeObra.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!Qry_getFiltros.isLoading}}",
+  "key": "2c1v7c55qp",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "A mão de obra da exploração agrícola é familiar, assalariada ou ambas?",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 33,
+  "originalTopRow": 26,
+  "parentColumnSpace": 21.796875,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar Opções",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Mão de Obra Assalariada\", \"value\": \"mao_de_obra_assalariada\" },\n  { \"label\": \"Mão de Obra Familiar\", \"value\": \"mao_de_obra_familiar\" }\n]",
+  "topRow": 26,
+  "topRowBeforeCollapse": 26,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "xu4979gvbr",
+  "widgetName": "Multiselect_MaoDeObra"
+}

@@ -1,0 +1,14 @@
+SELECT
+  ano,
+  COUNT(*) AS total_formularios_validados
+FROM (
+  SELECT id_utilizador, ano
+  FROM respostas
+  WHERE dominio IN ('ambiental','social','economico')
+  GROUP BY id_utilizador, ano
+  HAVING
+    COUNT(DISTINCT dominio) = 3                     -- tem os 3 domínios
+    AND BOOL_AND(validacao = 'S')                   -- e todas as respostas desses domínios são 'S'
+) t
+GROUP BY ano
+ORDER BY ano;

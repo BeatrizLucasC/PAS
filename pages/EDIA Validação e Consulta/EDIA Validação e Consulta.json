@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_4c7ed630-aa80-4bf9-9405-424d7f75b3e3",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 920.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 690.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 67.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 94.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "EDIA Validação e Consulta",
+    "slug": "edia-validacao-e-consulta"
+  }
+}

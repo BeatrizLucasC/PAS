@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "bottomRowBeforeCollapse": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Qry_getFiltros.data[0]?.dimensao))(Select_Dimensao.options, Select_Dimensao.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!Qry_getFiltros.isLoading}}",
+  "key": "sthlz6bum5",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Qual é a dimensão da exploração agrícola?",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 9,
+  "originalTopRow": 2,
+  "parentColumnSpace": 21.796875,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar Opção",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Pequena (0 - 20 ha)\", \"value\": \"de_pequena\" },\n  { \"label\": \"Média (20 - 100 ha)\", \"value\": \"de_media\" },\n  { \"label\": \"Grande (≥ 100 ha)\", \"value\": \"de_grande\" }\n]",
+  "topRow": 2,
+  "topRowBeforeCollapse": 2,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "htfwqhnwbh",
+  "widgetName": "Select_Dimensao"
+}

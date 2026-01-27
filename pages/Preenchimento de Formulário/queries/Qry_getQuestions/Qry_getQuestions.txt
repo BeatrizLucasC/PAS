@@ -1,0 +1,2 @@
+SELECT * FROM alquevasustentavel.perguntas ORDER BY id_pergunta;
+

@@ -1,0 +1,22 @@
+SELECT id_pergunta, resposta
+FROM respostas
+WHERE id_utilizador = '{{appsmith.store.autenticacao.nif}}'
+  AND LOWER(
+        TRANSLATE(
+          dominio,
+          'áéíóúãâêôõçÁÉÍÓÚÃÂÊÔÕÇ',
+          'aeiouaaeoocAEIOUAAEOOC'
+        )
+      ) = 'economico'
+  AND ano = (
+    SELECT MAX(ano)
+    FROM respostas
+    WHERE id_utilizador = '{{appsmith.store.autenticacao.nif}}'
+      AND LOWER(
+            TRANSLATE(
+              dominio,
+              'áéíóúãâêôõçÁÉÍÓÚÃÂÊÔÕÇ',
+              'aeiouaaeoocAEIOUAAEOOC'
+            )
+          ) = 'economico'
+  );

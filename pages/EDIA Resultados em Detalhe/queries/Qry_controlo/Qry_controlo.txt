@@ -1,0 +1,134 @@
+WITH contagens AS (
+  SELECT
+    r.id_utilizador,
+    COUNT(*) AS respostas_total,
+    SUM(CASE WHEN r.validacao = 'S' THEN 1 ELSE 0 END) AS respostas_validadas,
+    SUM(CASE WHEN r.validacao = 'N' THEN 1 ELSE 0 END) AS respostas_nao_validadas,
+    MAX(r.data_hora_submissao) AS ultima_submissao_utc
+  FROM respostas r
+  WHERE r.ano = {{ Select_year.selectedOptionValue }}
+  GROUP BY r.id_utilizador
+),
+
+ultima_validacao AS (
+  SELECT DISTINCT ON (r.id_utilizador)
+    r.id_utilizador,
+    r.data_hora_validacao AS ultima_validacao_utc,
+    r.tecnico_validacao
+  FROM respostas r
+  WHERE r.ano = {{ Select_year.selectedOptionValue }}
+    AND r.validacao = 'S'
+    AND r.data_hora_validacao IS NOT NULL
+  ORDER BY r.id_utilizador, r.data_hora_validacao DESC
+),
+
+/* CTE para métricas dos domínios */
+form_estado AS (
+  SELECT
+    r.id_utilizador,
+    COUNT(*) FILTER (
+      WHERE LOWER(TRIM(r.dominio)) IN ('ambiental','social','economico')
+    ) AS total_3d,
+
+    COUNT(*) FILTER (
+      WHERE LOWER(TRIM(r.dominio)) IN ('ambiental','social','economico')
+        AND r.validacao = 'S'
+    ) AS total_validadas_3d,
+
+    COUNT(DISTINCT LOWER(TRIM(r.dominio))) FILTER (
+      WHERE LOWER(TRIM(r.dominio)) IN ('ambiental','social','economico')
+    ) AS dominios_respondidos_3d
+  FROM respostas r
+  WHERE r.ano = {{ Select_year.selectedOptionValue }}
+  GROUP BY r.id_utilizador
+),
+
+/* Novo: CTE que constrói a lista de domínios distintos e ordenados por utilizador */
+dominios_por_utilizador AS (
+  SELECT
+    d.id_utilizador,
+    STRING_AGG(d.lbl, ', ' ORDER BY d.ord) AS dominios_list
+  FROM (
+    SELECT DISTINCT
+      r.id_utilizador,
+      CASE LOWER(TRIM(r.dominio))
+        WHEN 'ambiental' THEN 'Ambiental'
+        WHEN 'social'    THEN 'Social'
+        WHEN 'economico' THEN 'Económico'
+        ELSE NULL
+      END AS lbl,
+      CASE LOWER(TRIM(r.dominio))
+        WHEN 'ambiental' THEN 1
+        WHEN 'social'    THEN 2
+        WHEN 'economico' THEN 3
+        ELSE 99
+      END AS ord
+    FROM respostas r
+    WHERE r.ano = {{ Select_year.selectedOptionValue }}
+      AND LOWER(TRIM(r.dominio)) IN ('ambiental','social','economico')
+  ) d
+  WHERE d.lbl IS NOT NULL
+  GROUP BY d.id_utilizador
+)
+
+SELECT
+  COALESCE(u.nome, c.id_utilizador::text) AS nome,
+  c.id_utilizador AS nif,
+
+  -- KPIs
+  c.respostas_total,
+  c.respostas_validadas,
+  c.respostas_nao_validadas,
+
+  -- Última submissão convertida para Europe/Lisbon
+  TO_CHAR(
+    (c.ultima_submissao_utc AT TIME ZONE 'UTC') AT TIME ZONE 'Europe/Lisbon',
+    'DD/MM/YYYY - HH24:MI:SS'
+  ) AS ultima_submissao,
+
+  -- Técnico e data da última validação
+  COALESCE(utech.nome, '—') AS tecnico_validacao_nome,
+  COALESCE(
+    TO_CHAR(
+      (uv.ultima_validacao_utc AT TIME ZONE 'UTC') AT TIME ZONE 'Europe/Lisbon',
+      'DD/MM/YYYY - HH24:MI:SS'
+    ),
+    'Validação pendente'
+  ) AS data_ultima_validacao,
+
+  -- Estado do formulário (como tinhas)
+  CASE
+    WHEN fs.dominios_respondidos_3d = 3
+     AND fs.total_3d > 0
+     AND fs.total_3d = fs.total_validadas_3d
+      THEN 'Validado'
+    ELSE 'Por validar'
+  END AS validacao_form,
+
+  -- 👉 Novo: Domínios submetidos + "Form. completo|incompleto"
+  COALESCE(
+    REGEXP_REPLACE(dp.dominios_list, ', (?=[^,]+$)', ' e '),
+    '—'
+  )
+  || ' - '
+  || CASE
+       WHEN COALESCE(fs.dominios_respondidos_3d, 0) = 3
+         THEN 'Form. completo'
+       ELSE 'Form. incompleto'
+     END AS dominios_submetidos
+
+FROM contagens c
+LEFT JOIN utilizadores u
+  ON u.nif = c.id_utilizador
+LEFT JOIN ultima_validacao uv
+  ON uv.id_utilizador = c.id_utilizador
+LEFT JOIN utilizadores utech
+  ON utech.nif = uv.tecnico_validacao
+LEFT JOIN form_estado fs
+  ON fs.id_utilizador = c.id_utilizador
+LEFT JOIN dominios_por_utilizador dp
+  ON dp.id_utilizador = c.id_utilizador
+
+ORDER BY
+  c.respostas_validadas DESC,
+  COALESCE(u.nome, c.id_utilizador::text) ASC;

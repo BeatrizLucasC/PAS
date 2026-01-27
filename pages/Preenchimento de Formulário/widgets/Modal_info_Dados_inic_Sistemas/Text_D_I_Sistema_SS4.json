@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.75rem",
+  "fontStyle": "ITALIC",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yj3vz50bwh",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "originalBottomRow": 46,
+  "originalTopRow": 38,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "xlfy87ph66",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">As superfícies ocupadas com erva ou outras forrageiras herbáceas, quer semeadas quer espontâneas, por um período igual ou superior a cinco anos e que não estejam incluídas no sistema de rotação da exploração e as superfícies ocupadas com vegetação arbustiva. (ANEXO I do Despacho Normativo, n.º 1/2019, de 18 de janeiro)\nPecuária extensiva: sistemas de criação animal predominantemente em pastoreio, com baixa densidade pecuária por hectare, expressa em cabeças normais (CN) (de acordo com o Artigo 2º do Decreto-Lei n.º 81/2013, de 14 de junho).",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 38,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "lhqvtnah4f",
+  "widgetName": "Text_D_I_Sistema_SS4"
+}

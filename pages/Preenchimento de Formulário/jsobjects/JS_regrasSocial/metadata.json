@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_dedb3e5d-28a8-4ca0-af0f-1e88cced4048",
+  "id": "Preenchimento de Formulário_JS_regrasSocial",
+  "unpublishedCollection": {
+    "name": "JS_regrasSocial",
+    "pageId": "Preenchimento de Formulário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "answers",
+        "value": "{}"
+      }
+    ]
+  }
+}

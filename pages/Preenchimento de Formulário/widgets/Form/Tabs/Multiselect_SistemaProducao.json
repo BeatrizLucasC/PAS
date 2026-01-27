@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "bottomRowBeforeCollapse": 17,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Qry_getFiltros.data[0]?.sistemas_producao?.split(\",\")))(Multiselect_SistemaProducao.options, Multiselect_SistemaProducao.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!Qry_getFiltros.isLoading}}",
+  "key": "6mjism5blq",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelText": "Quais são os sistemas de produção da exploração agrícola?",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
+  "parentColumnSpace": 13.796875,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar Opções",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Culturas temporárias e/ou pastagens permanentes\", \"value\": \"sp_culturas_anuais\" },\n  { \"label\": \"Culturas Permanentes\", \"value\": \"sp_culturas_permanentes\" },\n  { \"label\": \"Produção Animal Extensiva\", \"value\": \"sp_culturas_pa_extensiva\" },\n  { \"label\": \"Produção Animal Intensiva\", \"value\": \"sp_culturas_pa_intensiva\" }\n]",
+  "topRow": 10,
+  "topRowBeforeCollapse": 10,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "eeyr36b63t",
+  "widgetName": "Multiselect_SistemaProducao"
+}

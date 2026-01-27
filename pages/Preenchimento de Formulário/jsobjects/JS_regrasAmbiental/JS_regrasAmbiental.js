@@ -1,0 +1,500 @@
+export default {
+  // Estado (respostas em memória)
+  answers: {},
+
+  // 1) Obter todas as perguntas do domínio "Ambiental"
+  getQuestions() {
+    const data = Qry_getQuestions.data || [];
+    return data.filter(
+      (q) => String(q.dominio || "").trim().toLowerCase() === "ambiental"
+    );
+  },
+
+  // 2) Filtrar perguntas com base nos widgets (condicionalidades)
+  filterQuestions() {
+    const all = this.getQuestions();
+    if (!all.length) return [];
+
+    // Helpers para ler "S"/"N" com segurança
+    const norm = (v) => String(v ?? "").trim().toUpperCase();
+    const isS = (row, col) => norm(row?.[col]) === "S";
+    const isN = (row, col) => norm(row?.[col]) === "N";
+
+    // Widgets (seleções dos filtros)
+    const selectedCert = Multiselect_Certificacao?.selectedOptionValues || [];
+    const selectedSP = Multiselect_SistemaProducao?.selectedOptionValues || [];
+    const selectedDE = Select_Dimensao?.selectedOptionValue
+      ? [Select_Dimensao.selectedOptionValue]
+      : [];
+    const selectedMO = Multiselect_MaoDeObra?.selectedOptionValues || [];
+
+    const opSel = Select_OP?.selectedOptionValue; // "op_sim" | "op_nao"
+    const proxSel = Select_ProxResidencias?.selectedOptionValue; // "prox_residencias_sim" | "prox_residencias_nao"
+    const fitoSel = Select_Fitofarmaceuticos?.selectedOptionValue; // "fitofarmaceuticos_sim" | "fitofarmaceuticos_nao"
+    const aguasSel = Select_AguasResiduais?.selectedOptionValue; // "aguas_residuais_sim" | "aguas_residuais_nao"
+    const energiaSel = Select_ConsumoEnergetico?.selectedOptionValue; // "consumo_energetico_sim" | "consumo_energetico_nao"
+
+    const selectedBinaryCols = [
+      opSel,
+      proxSel,
+      fitoSel,
+      aguasSel,
+      energiaSel,
+    ].filter(Boolean);
+
+    // "Outros filtros" são obrigatórios: todos os grupos têm de ter pelo menos uma seleção
+    const allOtherGroupsSelected =
+      selectedSP.length > 0 &&
+      selectedDE.length > 0 &&
+      selectedMO.length > 0 &&
+      selectedBinaryCols.length > 0;
+
+    if (!allOtherGroupsSelected) return [];
+
+    return all.filter((q) => {
+      // --- Certificações ---
+      const hasCertN = selectedCert.some((col) => isN(q, col));
+      if (hasCertN) return false;
+      // Regra permissiva: sem certificações selecionadas é OK; se houver, não pode ter "N"
+      const certOK = selectedCert.length === 0 ? true : !hasCertN;
+
+      // --- Outros filtros ---
+      // SP (multiselect): pelo menos UMA seleção tem de ser "S"
+      const spOK = selectedSP.some((col) => isS(q, col));
+      // Dimensão (single select): tem de ser "S"
+      const deOK = selectedDE.every((col) => isS(q, col));
+      // Mão de Obra (multiselect): pelo menos UMA seleção tem de ser "S"
+      const moOK = selectedMO.some((col) => isS(q, col));
+      // Binários: cada selecionado tem de ser "S"
+      const binOK = selectedBinaryCols.every((col) => isS(q, col));
+
+      const otherOK = spOK && deOK && moOK && binOK;
+
+      // Decisão final segundo a tabela desejada
+      return certOK && otherOK;
+    });
+  },
+
+  // 2.1) Todas as perguntas filtradas (sem condicionalidades de resposta)
+  getAllFilteredQuestions() {
+    return this.filterQuestions();
+  },
+
+  // 3) Ordenação por condicionalidade com base nas respostas dadas
+  getVisibleQuestions() {
+    const all = this.filterQuestions();
+    const answers = this.answers || {};
+    if (!all.length) return [];
+
+    const byId = Object.fromEntries(
+      all.map((q) => [String(q.id_pergunta), q])
+    );
+
+    const visible = [];
+    const visited = new Set();
+    let currentIndex = 0;
+
+    while (currentIndex < all.length) {
+      const current = all[currentIndex];
+      const id = String(current.id_pergunta);
+
+      // Proteção contra loops
+      if (visited.has(id)) break;
+      visited.add(id);
+      visible.push(current);
+
+      const ans = answers[id];
+      let nextId = null;
+
+      if (ans === "Sim" && current.condicao_sim) nextId = current.condicao_sim;
+      else if (ans === "Não" && current.condicao_nao) nextId = current.condicao_nao;
+      else if (ans === "NA" && current.condicao_na) nextId = current.condicao_na;
+
+      const nextIndex =
+        nextId && byId[nextId]
+          ? all.findIndex((q) => String(q.id_pergunta) === String(nextId))
+          : -1;
+
+      if (nextIndex >= 0 && nextIndex !== currentIndex) {
+        currentIndex = nextIndex;
+      } else {
+        currentIndex++;
+      }
+    }
+
+    return visible;
+  },
+
+  // 4) Label da pergunta (sem traços antes/depois do título)
+  questionLabel: (row) =>
+    row ? `${row.id_pergunta || ""} ${row.pergunta || ""}` : "",
+
+  // 5) Opções do Radio
+  radioOptions(row) {
+    const options = [
+      { label: "Sim", value: "Sim" },
+      { label: "Não", value: "Não" },
+    ];
+    if (row.na === "S") {
+      options.unshift({ label: "NA", value: "NA" });
+    }
+    return options;
+  },
+
+  // 6) Valor selecionado no Radio
+  selectedValue(row) {
+    return this.answers?.[row.id_pergunta] || "";
+  },
+
+  // 7) Handler de mudança de seleção
+  onSelectionChange(row, selectedValue) {
+    if (!row) return;
+    this.answers = {
+      ...this.answers,
+      [String(row.id_pergunta)]: selectedValue,
+    };
+  },
+
+  // 8) Preparar respostas para guardar
+  prepareAnswers({ onlyVisible = true } = {}) {
+    const questions = onlyVisible
+      ? this.getVisibleQuestions()
+      : this.getAllFilteredQuestions();
+
+    const userId = appsmith.store.autenticacao?.nif || "unknown_user";
+    const year = new Date().getFullYear();
+    const answers = this.answers || {};
+    const dominio = "ambiental";
+
+    return questions.map((q) => {
+      const idPerg = String(q.id_pergunta);
+      const currentAns = answers[idPerg]; // "Sim" | "Não" | "NA" | undefined
+      const respostaFinal = currentAns ? String(currentAns).trim() : null;
+
+      return {
+        id_resposta: `${userId}_${year}_${idPerg}`,
+        id_pergunta: idPerg,
+        id_utilizador: userId,
+        resposta: respostaFinal,
+        ano: year,
+        dominio,
+      };
+    });
+  },
+
+  // 9) Construir VALUES para o INSERT (inclui validacao='N' para novas linhas)
+  buildValues({ onlyVisible = true } = {}) {
+    const prepared = this.prepareAnswers({ onlyVisible });
+    if (!prepared.length) return "";
+
+    return prepared
+      .map((ans) => {
+        const safeVal =
+          ans.resposta === null
+            ? "NULL"
+            : `'${String(ans.resposta).replace(/'/g, "''")}'`;
+        return `(
+          '${ans.id_resposta}',
+          '${ans.id_pergunta}',
+          '${ans.id_utilizador}',
+          ${safeVal},
+          NOW(),
+          ${ans.ano},
+          '${ans.dominio}',
+          'N'
+        )`;
+      })
+      .join(", ");
+  },
+
+  // 11) Submissão
+  async onSubmit() {
+    try {
+      await Qry_checkExistingAmbiental.run();
+      const hasExisting =
+        Array.isArray(Qry_checkExistingAmbiental.data) &&
+        Qry_checkExistingAmbiental.data.length > 0;
+
+      if (hasExisting) {
+        showModal("Modal_ConfirmAmbiental");
+        return;
+      }
+
+      await Qry_saveAnswersAmbiental.run();
+
+      if (typeof Qry_getAnswersAmbiental?.run === "function") {
+        await Qry_getAnswersAmbiental.run();
+      }
+
+      showAlert(
+        "Respostas do domínio ambiental submetidas com sucesso!",
+        "success"
+      );
+    } catch (e) {
+      console.error("Erro em onSubmit:", e);
+      showAlert("Ocorreu um erro ao submeter. Tenta novamente.", "error");
+    }
+  },
+
+  // 12) Confirmar substituição
+  async confirmReplace() {
+    try {
+      await Qry_saveAnswersAmbiental.run();
+
+      if (typeof Qry_getAnswersAmbiental?.run === "function") {
+        await Qry_getAnswersAmbiental.run();
+      }
+
+      closeModal("Modal_ConfirmAmbiental");
+
+      if (this.isFormPersistedCompletely()) {
+        showAlert("Formulário completo. Respostas substituídas com sucesso!", "success");
+      } else {
+        showAlert(
+          "Respostas substituídas. Existem ainda perguntas visíveis sem resposta na BD.",
+          "info"
+        );
+      }
+    } catch (e) {
+      console.error("Erro em confirmReplace:", e);
+      showAlert("Ocorreu um erro ao substituir. Tenta novamente.", "error");
+    }
+  },
+
+  // 13) Cancelar substituição
+  cancelReplace() {
+    closeModal("Modal_ConfirmAmbiental");
+    showAlert("Substituição cancelada.", "info");
+  },
+
+  // 14) Carregar respostas anteriores
+  loadPreviousAnswers() {
+    const data = Qry_getAnswersAmbiental.data || [];
+    const mapped = {};
+    data.forEach((row) => {
+      if (row.id_pergunta && row.resposta != null) {
+        mapped[String(row.id_pergunta)] = String(row.resposta).trim();
+      }
+    });
+    this.answers = mapped;
+  },
+
+  // 15) Aplicar filtros e carregar respostas anteriores
+  async aplicarFiltrosECarregarRespostas() {
+    const perguntas = this.getAllFilteredQuestions();
+    if (perguntas.length > 0) {
+      await Qry_getAnswersAmbiental.run();
+      this.loadPreviousAnswers();
+    }
+  },
+
+  // 16) Filtro com Estado das Perguntas (fonte submetida/persistente)
+  //     IMPORTANTE: este query já devolve apenas o ano mais recente (MAX(ano))
+  answersSource() {
+    const rows = Array.isArray(Qry_getAnswersAmbiental?.data)
+      ? Qry_getAnswersAmbiental.data
+      : [];
+    return rows;
+  },
+
+  // Mapa de respostas submetidas/persistentes do utilizador (ano mais recente do query)
+  getPersistedAnswersMap() {
+    // NÃO filtrar por ano aqui — answersSource() já vem limitado ao MAX(ano)
+    const map = {};
+    const src = this.answersSource();
+    src.forEach((r) => {
+      const id = String(r?.id_pergunta);
+      map[id] =
+        r?.resposta === null ||
+        r?.resposta === undefined ||
+        String(r?.resposta).trim() === ""
+          ? ""
+          : String(r.resposta).trim();
+    });
+    return map;
+  },
+
+  // Mapa de respostas final (submetidas/persistentes + sessão atual)
+  getMergedAnswersMap() {
+    const persisted = this.getPersistedAnswersMap();
+    const live = this.answers || {};
+    // Resposta em memória sobrepõe a submetida/persistente
+    return {
+      ...persisted,
+      ...Object.fromEntries(
+        Object.entries(live).map(([k, v]) => [String(k), v || ""])
+      ),
+    };
+  },
+
+  // Opções do filtro de estado da resposta
+  statusOptions() {
+    return [
+      { label: "Selecionar todas", value: "all" },
+      { label: "Respondidas", value: "answered" },
+      { label: "Não respondidas", value: "unanswered" },
+    ];
+  },
+
+  // 17) Filtro categorias
+  // Opções de categorias (ordenadas) com "Selecionar todas"
+  categoryOptions() {
+    const all = this.getAllFilteredQuestions();
+    const uniq = new Set();
+    all.forEach((q) => {
+      if (q?.categoria) uniq.add(String(q.categoria));
+    });
+    const cats = Array.from(uniq).sort((a, b) =>
+      a.localeCompare(b, "pt", { sensitivity: "base" })
+    );
+
+    return [
+      { label: "Selecionar todas", value: "__ALL__" },
+      ...cats.map((c) => ({ label: c, value: c })),
+    ];
+  },
+
+  // Devolve as categorias a usar (se "__ALL__" estiver presente ou vazio -> todas)
+  effectiveCategoryValues() {
+    const selected = Multiselect_Categorias?.selectedOptionValues || [];
+    const opts = this.categoryOptions()
+      .filter((o) => o.value !== "__ALL__")
+      .map((o) => o.value);
+
+    if (selected.length === 0 || selected.includes("__ALL__")) return opts;
+    return selected.filter((v) => opts.includes(v));
+  },
+
+  // 18) Visibilidade perguntas formulário
+  // Filtragem formulário pós-visibilidade por Categoria + Estado de resposta
+  applyUISubFilters(list) {
+    const catVals = this.effectiveCategoryValues();
+
+    // Mapas de respostas
+    const persistedMap = this.getPersistedAnswersMap(); // BD (ano mais recente)
+    const mergedAnswers = this.getMergedAnswersMap(); // BD + sessão
+
+    const status = Select_statusRespostas?.selectedOptionValue || "all";
+
+    return (list || [])
+      // Categoria
+      .filter((q) => !q?.categoria || catVals.includes(String(q.categoria)))
+      // Estado de resposta do utilizador
+      .filter((q) => {
+        const id = String(q.id_pergunta);
+        const persistedHasRow = Object.prototype.hasOwnProperty.call(
+          persistedMap,
+          id
+        );
+
+        const merged = (mergedAnswers[id] || "").trim(); // resposta (BD ou sessão)
+        const persisted = (persistedMap[id] || "").trim(); // "" se linha existe mas sem resposta
+
+        if (status === "all") return true;
+
+        if (status === "unanswered") {
+          // Mantido como estava: usa merged => pode desaparecer à medida que se responde
+          return persisted === "";
+        }
+
+        if (status === "answered") {
+          // Mantido: conta também respondidas nesta sessão (merged)
+          return merged !== "";
+          // Para apenas SUBMETIDAS: return persisted !== "";
+        }
+
+        return true;
+      });
+  },
+
+  // Fonte final para o List widget (visíveis pela lógica + filtros UI)
+  listData() {
+    const visible = this.getVisibleQuestions(); // respeita condicionalidade
+    return this.applyUISubFilters(visible);
+  },
+
+  // 19) Indicador de perguntas respondidas - x/y (z%)
+  // Considera apenas perguntas visíveis pelas opções dos dados iniciais e pela lógica condicional
+  progressCounts() {
+    const baseVisible = this.getVisibleQuestions();
+    const mergedAnswers = this.getMergedAnswersMap();
+
+    const y = Array.isArray(baseVisible) ? baseVisible.length : 0;
+    let x = 0;
+
+    (baseVisible || []).forEach((q) => {
+      const id = String(q.id_pergunta);
+      const ans = (mergedAnswers[id] || "").trim();
+      if (ans !== "") x += 1;
+    });
+
+    const z = y > 0 ? Math.round((x / y) * 100) : 0;
+    return { x, y, z };
+  },
+
+  // Texto do indicador x/y (z%)
+  progressText() {
+    const { x, y, z } = this.progressCounts();
+    return `${x}/${y} (${z}%)`;
+  },
+
+  // Valor barra progresso (z%)
+  perguntasRespondidasPct() {
+    const { z } = this.progressCounts();
+    const pct = Number(z) || 0;
+    return Math.min(100, Math.max(0, pct));
+  },
+
+  // 20) Text widget com estado do formulário
+  //     Usa APENAS as linhas devolvidas pelo query (já filtradas ao ano mais recente)
+  isFormPersistedCompletely() {
+    const visible = this.getVisibleQuestions();
+    if (!Array.isArray(visible) || visible.length === 0) return false;
+
+    const src = this.answersSource();
+    const persistedMap = {};
+    src.forEach((r) => {
+      const id = String(r?.id_pergunta);
+      const val =
+        r?.resposta === null || r?.resposta === undefined
+          ? ""
+          : String(r.resposta).trim();
+      persistedMap[id] = val;
+    });
+
+    // Todas as VISÍVEIS precisam de resposta SUBMETIDA (não-vazia) na BD (ano mais recente)
+    return visible.every((q) => {
+      const id = String(q.id_pergunta);
+      const ans = (persistedMap[id] || "").trim();
+      return ans !== "";
+    });
+  },
+
+  // Estado local global
+  isFormCompleteLocally() {
+    const visible = this.getVisibleQuestions();
+    const mergedAnswers = this.getMergedAnswersMap();
+    if (!Array.isArray(visible) || visible.length === 0) return false;
+
+    return visible.every((q) => {
+      const id = String(q.id_pergunta);
+      const ans = (mergedAnswers[id] || "").trim();
+      return ans !== "";
+    });
+  },
+
+  statusText() {
+    const allAnsweredLocally = this.isFormCompleteLocally();
+    const allAnsweredPersisted = this.isFormPersistedCompletely();
+
+    if (allAnsweredLocally && allAnsweredPersisted) {
+      return "Formulário completo.";
+    }
+    return "Respostas em falta. Responda a todas as perguntas e submeta o formulário, por favor.";
+  },
+
+  // Boolean agregado para estilos de texto
+  isFormComplete() {
+    return this.isFormCompleteLocally() && this.isFormPersistedCompletely();
+  },
+};

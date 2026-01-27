@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a35yegm7q9",
+  "leftColumn": 10,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "originalBottomRow": 58,
+  "originalTopRow": 49,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "shouldTruncate": false,
+  "text": "Nesta página, pode consultar a pontuação obtida no referencial, apresentada ao nível global, por domínio, categoria e indicador. Os separadores dos domínios ambiental, social e económico apenas ficam disponíveis após a submissão das respostas aos formulários correspondentes, acessíveis na página de preenchimento de formulário.",
+  "textAlign": "CENTER",
+  "textColor": "#231f20",
+  "topRow": 49,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "kqdwozdnzr",
+  "widgetName": "PAS_Conteiner_1_Destaque"
+}

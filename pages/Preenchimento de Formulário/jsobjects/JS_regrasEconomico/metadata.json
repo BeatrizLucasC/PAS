@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_f0e4fc9f-f8aa-4b1d-9320-0149cdd464b7",
+  "id": "Preenchimento de Formulário_JS_regrasEconomico",
+  "unpublishedCollection": {
+    "name": "JS_regrasEconomico",
+    "pageId": "Preenchimento de Formulário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "answers",
+        "value": "{}"
+      }
+    ]
+  }
+}

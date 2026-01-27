@@ -1,0 +1,421 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 74,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "cachedTableData": {},
+  "canFreezeColumn": true,
+  "cellBackground": "",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id_pergunta",
+    "dominio",
+    "categoria",
+    "indicador",
+    "pergunta",
+    "resposta",
+    "validacao"
+  ],
+  "columnUpdatedAt": 1766794522049,
+  "columnWidthMap": {
+    "categoria": 114,
+    "dominio": 100,
+    "id_pergunta": 127,
+    "indicador": 275,
+    "pergunta": 512
+  },
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": "",
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "primaryColumns.id_pergunta.computedValue"
+    },
+    {
+      "key": "primaryColumns.pergunta.computedValue"
+    },
+    {
+      "key": "primaryColumns.dominio.computedValue"
+    },
+    {
+      "key": "primaryColumns.categoria.computedValue"
+    },
+    {
+      "key": "primaryColumns.indicador.computedValue"
+    },
+    {
+      "key": "primaryColumns.resposta.computedValue"
+    },
+    {
+      "key": "primaryColumns.validacao.computedValue"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.validacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.resposta.cellBackground"
+    },
+    {
+      "key": "primaryColumns.pergunta.cellBackground"
+    },
+    {
+      "key": "primaryColumns.indicador.cellBackground"
+    },
+    {
+      "key": "primaryColumns.categoria.cellBackground"
+    },
+    {
+      "key": "primaryColumns.dominio.cellBackground"
+    },
+    {
+      "key": "primaryColumns.id_pergunta.cellBackground"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.validacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.resposta.cellBackground"
+    },
+    {
+      "key": "primaryColumns.pergunta.cellBackground"
+    },
+    {
+      "key": "primaryColumns.indicador.cellBackground"
+    },
+    {
+      "key": "primaryColumns.categoria.cellBackground"
+    },
+    {
+      "key": "primaryColumns.dominio.cellBackground"
+    },
+    {
+      "key": "primaryColumns.id_pergunta.cellBackground"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "nipa3nxyad",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 72,
+  "originalTopRow": 19,
+  "parentColumnSpace": 13.796875,
+  "parentId": "4co4xqnsmp",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id_pergunta",
+  "primaryColumns": {
+    "categoria": {
+      "alias": "categoria",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"categoria\"])) : categoria })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "categoria",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Categoria",
+      "notation": "standard",
+      "originalId": "categoria",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "dominio": {
+      "alias": "dominio",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"dominio\"])) : dominio })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "dominio",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Domínio",
+      "notation": "standard",
+      "originalId": "dominio",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id_pergunta": {
+      "alias": "id_pergunta",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"id_pergunta\"])) : id_pergunta })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id_pergunta",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ID pergunta",
+      "notation": "standard",
+      "originalId": "id_pergunta",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "indicador": {
+      "alias": "indicador",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"indicador\"])) : indicador })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "indicador",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Indicador",
+      "notation": "standard",
+      "originalId": "indicador",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "pergunta": {
+      "alias": "pergunta",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"pergunta\"])) : pergunta })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "pergunta",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Pergunta",
+      "notation": "standard",
+      "originalId": "pergunta",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "resposta": {
+      "alias": "resposta",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"resposta\"])) : resposta })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "resposta",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Resposta",
+      "notation": "standard",
+      "originalId": "resposta",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "validacao": {
+      "alias": "validacao",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\" )) : currentRow.validacao === \"Por validar\" ? \"#fde2e2\" : \"\"  })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Tbl_validacao.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"validacao\"])) : validacao })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "validacao",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Estado validação",
+      "notation": "standard",
+      "originalId": "validacao",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{Qry_respostasForm.data}}",
+  "textColor": "",
+  "textSize": "0.875rem",
+  "topRow": 19,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "28umywxgj8",
+  "widgetName": "Tbl_validacao"
+}

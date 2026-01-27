@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69774ae9b3e043360037aa21_0bd7a699-b615-44a7-8554-142ef4a41f9f",
+  "id": "Preenchimento de Formulário_JS_filtros",
+  "unpublishedCollection": {
+    "name": "JS_filtros",
+    "pageId": "Preenchimento de Formulário",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "filtrosGuardados",
+        "value": "false"
+      }
+    ]
+  }
+}

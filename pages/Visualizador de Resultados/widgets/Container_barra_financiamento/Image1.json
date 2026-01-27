@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultImage": "https://consulai.com/wp-content/uploads/2026/01/Ativo-1-3.svg",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sagrot6ah1",
+  "leftColumn": 21,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "parentColumnSpace": 19.5,
+  "parentId": "71zbjospej",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 42,
+  "topRow": 4,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "h54gr9mrax",
+  "widgetName": "Image1"
+}

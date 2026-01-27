@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 49,
+  "bottomRowBeforeCollapse": 49,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Qry_getFiltros.data[0]?.prox_residencias))(Select_ProxResidencias.options, Select_ProxResidencias.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!Qry_getFiltros.isLoading}}",
+  "key": "sthlz6bum5",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "A exploração agrícola encontra-se próxima de comunidades locais?",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 49,
+  "originalTopRow": 42,
+  "parentColumnSpace": 21.796875,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar Opção",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Sim (Residências ou Comunidades Locais a Menos de 250 Metros)\",\n    \"value\": \"prox_residencias_sim\"\n  },\n  {\n    \"label\": \"Não (Residências ou Comunidades Locais a Mais de 250 Metros)\",\n    \"value\": \"prox_residencias_nao\"\n  }\n]",
+  "topRow": 42,
+  "topRowBeforeCollapse": 42,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cqz1zrs7hp",
+  "widgetName": "Select_ProxResidencias"
+}

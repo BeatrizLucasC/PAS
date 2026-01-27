@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a35yegm7q9",
+  "leftColumn": 35,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "originalBottomRow": 25,
+  "originalTopRow": 5,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "nf8vzzto1b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "<p style=\"text-align: justify;\">As áreas e funcionalidades da plataforma organizam-se em três eixos principais. \n\nO formulário, que permite o preenchimento e edição da informação de forma simples e progressiva, com possibilidade de guardar e retomar o processo, a visualização dos resultados, que apresenta uma leitura estruturada do desempenho da exploração, com destaque para pontos fortes e oportunidades de melhoria por domínios de sustentabilidade, e a comparação com a média, que permite analisar o posicionamento da exploração face à média global das explorações avaliadas.</p>",
+  "textAlign": "LEFT",
+  "textColor": "#231f20",
+  "topRow": 5,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "p3c6f1gtnu",
+  "widgetName": "PAS_Container_2_Texto"
+}

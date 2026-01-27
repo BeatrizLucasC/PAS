@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 73,
+  "bottomRowBeforeCollapse": 73,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Qry_getFiltros.data[0]?.consumo_energetico))(Select_ConsumoEnergetico.options, Select_ConsumoEnergetico.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!Qry_getFiltros.isLoading}}",
+  "key": "sthlz6bum5",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "A exploração agrícola tem algum tipo de consumo energético no âmbito da sua atividade produtiva?",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 73,
+  "originalTopRow": 66,
+  "parentColumnSpace": 21.796875,
+  "parentId": "s6o0bco9ed",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccionar Opção",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Sim\", \"value\": \"consumo_energetico_sim\" },\n  { \"label\": \"Não\", \"value\": \"consumo_energetico_nao\" }\n]",
+  "topRow": 66,
+  "topRowBeforeCollapse": 66,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "h1q4t3paiz",
+  "widgetName": "Select_ConsumoEnergetico"
+}
