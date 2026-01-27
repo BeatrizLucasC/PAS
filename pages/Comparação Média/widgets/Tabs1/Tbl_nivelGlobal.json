@@ -88,9 +88,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -147,7 +144,7 @@
       "notation": "standard",
       "originalId": "dominio",
       "sticky": "",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -181,7 +178,7 @@
       "originalId": "nivel_media",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -215,7 +212,7 @@
       "originalId": "nivel_user",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -249,7 +246,7 @@
       "originalId": "pontuacao_media",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -283,7 +280,7 @@
       "originalId": "pontuacao_user",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -295,7 +292,7 @@
   "rightColumn": 63,
   "searchKey": "",
   "tableData": "{{   Qry_pontuacaoDominio.data.map(({ dominio, pontuacao_user, pontuacao_media, nivel_user, nivel_media, pontuacao_diferenca }) => ({\n    dominio, \n\t\tpontuacao_user,\n\t\tpontuacao_media,\n    nivel_user,\n\t\tnivel_media,\n\t\tpontuacao_diferenca\n  }))\n}}",
-  "textSize": "0.75rem",
+  "textSize": "0.875rem",
   "topRow": 73,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

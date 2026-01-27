@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "#8ac040",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
   "dynamicBindingPathList": [
     {
@@ -11,6 +11,9 @@
     },
     {
       "key": "isVisible"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicHeight": "FIXED",

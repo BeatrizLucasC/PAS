@@ -45,8 +45,8 @@
           "index": 3,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Comparação com Média",
-          "onClick": "{{navigateTo('Comparação Média', {}, 'SAME_WINDOW');}}",
+          "label": "Ranking dos utilizadores",
+          "onClick": "{{navigateTo('EDIA Ranking Utilizadores', {}, 'SAME_WINDOW');}}",
           "widgetId": "w91p9fj557"
         },
         "menuItemjmwdd0crbi": {
@@ -54,8 +54,8 @@
           "index": 1,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Preenchimento de Formulário",
-          "onClick": "{{navigateTo('Preenchimento de Formulário', {}, 'SAME_WINDOW');}}",
+          "label": "Validação e consulta das respostas",
+          "onClick": "{{navigateTo('EDIA Validação e Consulta', {}, 'SAME_WINDOW');}}",
           "widgetId": "nn7ufevxku"
         },
         "menuItemjtierhlnw3": {
@@ -64,7 +64,7 @@
           "isDisabled": false,
           "isVisible": true,
           "label": "Home Page",
-          "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+          "onClick": "{{navigateTo('EDIA Home', {}, 'SAME_WINDOW');}}",
           "widgetId": "rhjk5pqj56"
         },
         "menuItemonitffbukz": {
@@ -72,8 +72,8 @@
           "index": 2,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Visualizador de Resultados",
-          "onClick": "{{navigateTo('Visualizador de Resultados', {}, 'SAME_WINDOW');}}",
+          "label": "Análise detalhada dos resultados",
+          "onClick": "{{navigateTo('EDIA Resultados em Detalhe', {}, 'SAME_WINDOW');}}",
           "widgetId": "c81aiyycme"
         }
       },
@@ -104,6 +104,6 @@
   "topRow": 1,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "xopqq9gyg0",
+  "widgetId": "eddh56udl4",
   "widgetName": "PAS_Box_1_BotaoCopy2"
 }

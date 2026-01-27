@@ -74,9 +74,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -134,7 +131,7 @@
       "originalId": "categoria",
       "sticky": "",
       "textColor": "#231f20",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -168,7 +165,7 @@
       "originalId": "nivel_user",
       "sticky": "",
       "textColor": "#231f20",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -181,7 +178,7 @@
   "searchKey": "",
   "tableData": "{{\n  Qry_pontuacaoCategoria.data\n    .filter(({ dominio }) => dominio === \"Ambiental\")\n    .sort((a, b) => b.pontuacao_user - a.pontuacao_user)\n    .map(({ categoria, nivel_user }) => ({categoria, nivel_user}))\n}}",
   "textColor": "#231f20",
-  "textSize": "0.75rem",
+  "textSize": "0.875rem",
   "topRow": 75,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

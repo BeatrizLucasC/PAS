@@ -7,11 +7,12 @@
   "boxShadow": "none",
   "chartData": {
     "daky6d1lh1": {
+      "color": "#8ac040",
       "data": "{{ Qry_pontuacaoDominio.data.map(item => ({\n    x: item.dominio,\n    y: item.pontuacao_user})) }}",
       "seriesName": "A minha pontuação"
     },
     "frnhovg9r2": {
-      "color": "#15803d",
+      "color": "#233444",
       "data": "{{ Qry_pontuacaoDominio.data.map(item => ({\n    x: item.dominio,\n    y: item.pontuacao_media})) }}",
       "seriesName": "Pontuação média"
     }

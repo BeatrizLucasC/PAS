@@ -66,8 +66,8 @@ export default {
       type: "radar",
       tooltip: { show: false }, // removida tooltip individual
       areaStyle: { opacity: 0.10 },
-      lineStyle: { width: 1.5, color: "#5B8FF9" },
-      itemStyle: { color: "#5B8FF9" },
+      lineStyle: { width: 1.5, color: "#8ac040" },
+      itemStyle: { color: "#8ac040" },
       showSymbol: false,
       data: [{ value: values, name: "Pontuação (geral)" }]
     };
@@ -82,7 +82,7 @@ export default {
         type: "radar",
         lineStyle: { width: 0 },
         areaStyle: { opacity: 0 },
-        itemStyle: { color: "#5AD8A6" },
+        itemStyle: { color: "#233444" },
         showSymbol: true,
         symbol: "circle",
         symbolSize: value => {

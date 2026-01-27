@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "{{Qry_pontuacaoDominio.data[0].nivel_user}}",
+  "text": "{{ Qry_pontuacaoDominio.data.find(r => r.dominio === \"Ambiental\")?.nivel_user }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 28,

@@ -4,7 +4,7 @@
   "borderColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 107,
+  "bottomRow": 106,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -38,7 +38,7 @@
   ],
   "columnUpdatedAt": 1765612263725,
   "columnWidthMap": {
-    "categoria": 189,
+    "categoria": 245,
     "indicador": 359
   },
   "compactMode": "DEFAULT",
@@ -73,9 +73,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -133,7 +130,7 @@
       "originalId": "categoria",
       "sticky": "",
       "textColor": "#231f20",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -167,7 +164,7 @@
       "originalId": "nivel_user",
       "sticky": "",
       "textColor": "#231f20",
-      "textSize": "0.75rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -180,7 +177,7 @@
   "searchKey": "",
   "tableData": "{{\n  Qry_pontuacaoCategoria.data\n    .filter(({ dominio }) => dominio === \"Social\")\n    .sort((a, b) => b.pontuacao_user - a.pontuacao_user)\n    .map(({ categoria, nivel_user }) => ({categoria, nivel_user}))\n}}",
   "textColor": "#231f20",
-  "textSize": "0.75rem",
+  "textSize": "0.875rem",
   "topRow": 71,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

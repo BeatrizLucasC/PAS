@@ -1,0 +1,7 @@
+SELECT *
+FROM vw_pct_mitigacao
+WHERE id_utilizador = {{Tbl_resumo.selectedRow.nif}}
+AND (
+  {{ Select_year.selectedOptionValue === "" }}
+  OR ano = {{ Select_year.selectedOptionValue }}
+);

@@ -42,12 +42,12 @@
   ],
   "columnUpdatedAt": 1768230931689,
   "columnWidthMap": {
-    "categoria": 125,
+    "categoria": 156,
     "indicador": 299,
     "nivel_media": 129,
     "nivel_user": 201,
     "pontuacao_media": 118,
-    "pontuacao_user": 179
+    "pontuacao_user": 194
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -92,9 +92,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -149,7 +146,7 @@
       "notation": "standard",
       "originalId": "categoria",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -181,7 +178,7 @@
       "notation": "standard",
       "originalId": "indicador",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -213,7 +210,7 @@
       "notation": "standard",
       "originalId": "nivel_media",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -245,7 +242,7 @@
       "notation": "standard",
       "originalId": "nivel_user",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -277,7 +274,7 @@
       "notation": "standard",
       "originalId": "pontuacao_media",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -309,7 +306,7 @@
       "notation": "standard",
       "originalId": "pontuacao_user",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -322,7 +319,7 @@
   "searchKey": "",
   "serverSidePaginationEnabled": false,
   "tableData": "{{ Qry_pontuacaoIndicador.data\n    .filter(({ dominio }) => dominio === \"Económico\")\n    .map(({ categoria, indicador, nivel_user, pontuacao_user, nivel_media, pontuacao_media, pontuacao_diferenca }) => ({ categoria, indicador, nivel_user, pontuacao_user, nivel_media, pontuacao_media, pontuacao_diferenca }))\n}}",
-  "textSize": "0.65rem",
+  "textSize": "0.875rem",
   "topRow": 157,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

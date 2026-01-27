@@ -1,14 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 186,
+  "bottomRow": 179,
   "boxShadow": "none",
-  "buttonColor": "#8ac040",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -34,8 +37,8 @@
   "mobileTopRow": 33,
   "needsErrorInfo": false,
   "onClick": "{{JS_regrasAmbiental.onSubmit()}}",
-  "originalBottomRow": 186,
-  "originalTopRow": 181,
+  "originalBottomRow": 179,
+  "originalTopRow": 174,
   "parentId": "ube31dodxs",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -44,7 +47,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 14,
   "text": "Submeter Respostas",
-  "topRow": 181,
+  "topRow": 174,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "xv5h20m6d5",

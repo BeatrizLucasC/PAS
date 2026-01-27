@@ -94,7 +94,7 @@ export default {
         splitNumber: 5,
         startAngle: 20,
         nameGap: 26,
-        axisName: { color: "#333", fontSize: 11, lineHeight: 11 },
+        axisName: { color: "#333", fontSize: 12, lineHeight: 15 },
         indicator: indicators
       },
       series: [

@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 112,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "borderColor"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "aranrxpp2a",
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 112,
+  "originalTopRow": 101,
+  "overflow": "NONE",
+  "parentColumnSpace": 1.845703125,
+  "parentId": "f7fm0f1ga5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "shouldTruncate": false,
+  "text": "Considerando o impacto que as alterações climáticas têm na produção agrícola, o Programa Alqueva Sustentável também incorpora as estratégias de adaptação e mitigação climática dos inquiridos, através da caracterização das práticas de acordo com o seu impacto. O indicadores adaptação e mitigação climática indica o número de práticas que contribuem para a adaptação e para a mitigação climática respetivamente, que o produtor/exploração implementa, em comparação com o número de práticas que poderia implementar",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 101,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "n5m5lbni8w",
+  "widgetName": "Txt_pontDomGlobalCopy"
+}

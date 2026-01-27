@@ -48,6 +48,7 @@ export default {
 
     const specialNames = {
       "Corretivos do solo": "Corretivos\ndo solo",
+			"Plano de adaptação e mitigação climática": "Plano de adaptação e mitigação climática",
       "Áreas Naturais e Áreas de Foco Ecológico": "Áreas Naturais e Áreas\nde Foco Ecológico",
       "Apoio técnico qualificado em gestão de pragas e doenças": "Apoio técnico qualificado em\ngestão de pragas e doenças",
       "Formação especializada em adaptação e mitigação climática": "Formação especializada em adaptação e mitigação climática",
@@ -94,7 +95,7 @@ export default {
         splitNumber: 5,
         startAngle: 30,
         nameGap: 45,
-        axisName: { color: "#333", fontSize: 11, lineHeight: 11 },
+        axisName: { color: "#333", fontSize: 12, lineHeight: 15 },
         indicator: indicators
       },
       series: [

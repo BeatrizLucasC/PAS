@@ -42,12 +42,12 @@
   ],
   "columnUpdatedAt": 1768216640280,
   "columnWidthMap": {
-    "categoria": 170,
-    "indicador": 458,
-    "nivel_media": 120,
-    "nivel_user": 123,
+    "categoria": 226,
+    "indicador": 352,
+    "nivel_media": 145,
+    "nivel_user": 147,
     "pontuacao_media": 109,
-    "pontuacao_user": 140
+    "pontuacao_user": 186
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -92,9 +92,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -151,7 +148,7 @@
       "notation": "standard",
       "originalId": "categoria",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -183,7 +180,7 @@
       "notation": "standard",
       "originalId": "indicador",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -215,7 +212,7 @@
       "notation": "standard",
       "originalId": "nivel_media",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -247,7 +244,7 @@
       "notation": "standard",
       "originalId": "nivel_user",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -279,7 +276,7 @@
       "notation": "standard",
       "originalId": "pontuacao_media",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -311,7 +308,7 @@
       "notation": "standard",
       "originalId": "pontuacao_user",
       "sticky": "",
-      "textSize": "0.65rem",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -323,7 +320,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "tableData": "{{ Qry_pontuacaoIndicador.data\n    .filter(({ dominio }) => dominio === \"Ambiental\")\n    .map(({ categoria, indicador, nivel_user, pontuacao_user, nivel_media, pontuacao_media, pontuacao_diferenca }) => ({ categoria, indicador, nivel_user, pontuacao_user, nivel_media, pontuacao_media, pontuacao_diferenca }))\n}}",
-  "textSize": "0.65rem",
+  "textSize": "0.875rem",
   "topRow": 193,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

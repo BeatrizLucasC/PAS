@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 240,
+  "bottomRow": 244,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -81,9 +81,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -108,7 +105,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 137,
   "needsErrorInfo": false,
-  "originalBottomRow": 240,
+  "originalBottomRow": 244,
   "originalTopRow": 195,
   "parentColumnSpace": 14.8564453125,
   "parentId": "wo40px8ef8",
@@ -140,7 +137,7 @@
       "notation": "standard",
       "originalId": "categoria",
       "sticky": "",
-      "textSize": "0.75rem",
+      "textSize": "",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -172,7 +169,7 @@
       "notation": "standard",
       "originalId": "indicador",
       "sticky": "",
-      "textSize": "0.75rem",
+      "textSize": "",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -204,7 +201,7 @@
       "notation": "standard",
       "originalId": "nivel_user",
       "sticky": "",
-      "textSize": "0.75rem",
+      "textSize": "",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -236,7 +233,7 @@
       "notation": "standard",
       "originalId": "pontuacao_user",
       "sticky": "",
-      "textSize": "0.75rem",
+      "textSize": "",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -248,7 +245,7 @@
   "rightColumn": 61,
   "searchKey": "",
   "tableData": "{{\n  Qry_pontuacaoIndicador.data\n    .filter(({ dominio }) => dominio === \"Ambiental\")\n    .sort((a, b) => b.pontuacao_user - a.pontuacao_user)\n    .map(({ categoria, indicador, nivel_user, pontuacao_user }) => ({categoria, indicador, nivel_user, pontuacao_user}))\n}}",
-  "textSize": "0.75rem",
+  "textSize": "",
   "topRow": 195,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

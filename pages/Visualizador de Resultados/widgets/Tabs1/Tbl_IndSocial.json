@@ -81,9 +81,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "textSize"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -138,7 +135,7 @@
       "notation": "standard",
       "originalId": "categoria",
       "sticky": "",
-      "textSize": "0.75rem\n",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -170,7 +167,7 @@
       "notation": "standard",
       "originalId": "indicador",
       "sticky": "",
-      "textSize": "0.75rem\n",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -202,7 +199,7 @@
       "notation": "standard",
       "originalId": "nivel_user",
       "sticky": "",
-      "textSize": "0.75rem\n",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -234,7 +231,7 @@
       "notation": "standard",
       "originalId": "pontuacao_user",
       "sticky": "",
-      "textSize": "0.75rem\n",
+      "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
@@ -246,7 +243,7 @@
   "rightColumn": 61,
   "searchKey": "",
   "tableData": "{{\n  Qry_pontuacaoIndicador.data\n    .filter(({ dominio }) => dominio === \"Social\")\n    .sort((a, b) => b.pontuacao_user - a.pontuacao_user)\n    .map(({ categoria, indicador, nivel_user, pontuacao_user }) => ({categoria, indicador, nivel_user, pontuacao_user}))\n}}",
-  "textSize": "0.75rem\n",
+  "textSize": "0.875rem",
   "topRow": 163,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",

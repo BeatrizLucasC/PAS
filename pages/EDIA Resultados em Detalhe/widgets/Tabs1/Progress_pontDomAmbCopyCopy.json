@@ -30,7 +30,7 @@
   "parentColumnSpace": 1.845703125,
   "parentId": "3hydrjmf0k",
   "parentRowSpace": 10,
-  "progress": "{{Qry_pontuacaoDominio.data[2].pontuacao_media}}",
+  "progress": "{{ Qry_pontuacaoDominio.data.find(r => r.dominio === \"Social\")?.pontuacao_media }}",
   "progressType": "circular",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
