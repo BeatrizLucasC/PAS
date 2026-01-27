@@ -45,7 +45,7 @@
   "shouldTruncate": false,
   "text": "{{Qry_pontuacaoDominio.data[1].nivel_user}}",
   "textAlign": "CENTER",
-  "textColor": "#8ac040",
+  "textColor": "#231f20",
   "topRow": 31,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

@@ -1,5 +1,5 @@
 {
-  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "accentColor": "#15803d",
   "animateLoading": true,
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
@@ -192,9 +192,6 @@
   ],
   "defaultTab": "Resultados Globais",
   "dynamicBindingPathList": [
-    {
-      "key": "accentColor"
-    },
     {
       "key": "borderRadius"
     },

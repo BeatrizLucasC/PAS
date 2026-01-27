@@ -1,26 +1,18 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#ffffff",
-  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 104,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "borderColor"
-    },
-    {
-      "key": "fontFamily"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "System Default",
   "fontSize": "1.25rem",
   "fontStyle": "",
   "isLoading": false,
@@ -35,23 +27,23 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 38,
-  "originalTopRow": 34,
+  "originalBottomRow": 104,
+  "originalTopRow": 100,
   "overflow": "NONE",
   "parentColumnSpace": 1.845703125,
-  "parentId": "3hydrjmf0k",
+  "parentId": "f7fm0f1ga5",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Pontuação Por Categoria",
+  "text": "Alterações Climáticas - Adaptação e Mitigação",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
-  "topRow": 37,
+  "textColor": "#231f20",
+  "topRow": 100,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "jgziceh2rg",
-  "widgetName": "Text22CopyCopy1CopyCopy1"
+  "widgetId": "c6r90o3sf2",
+  "widgetName": "Txt_pontGlobalCopy1"
 }
