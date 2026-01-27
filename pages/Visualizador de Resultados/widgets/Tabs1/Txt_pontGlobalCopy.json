@@ -8,11 +8,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "System Default",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
   "fontStyle": "",
   "isLoading": false,
