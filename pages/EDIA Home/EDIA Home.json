@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "69774ae9b3e043360037aa21_4c7ed630-aa80-4bf9-9405-424d7f75b3e3",
+  "gitSyncId": "6978dbcba5a9745339522a84_9e41b586-3479-4602-a4bb-53947ce537d8",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 3830,
+          "bottomRow": 1292,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 690,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 67,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "EDIA Validação e Consulta",
-    "slug": "edia-validacao-e-consulta"
+    "name": "EDIA Home",
+    "slug": "edia-home"
   }
 }
