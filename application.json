@@ -60,6 +60,10 @@
     {
       "id": "EDIA Validação e Consulta",
       "isDefault": false
+    },
+    {
+      "id": "Home Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

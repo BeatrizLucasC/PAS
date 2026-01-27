@@ -1,0 +1,66 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Aceder Aqui",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Preenchimento de Formulário', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7m9sh3uz3q",
+  "leftColumn": 3,
+  "minWidth": 450,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
+  "parentColumnSpace": 15.78515625,
+  "parentId": "5raw8w2c60",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 36,
+  "topRow": 14,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "xl2ub2xq0a",
+  "widgetName": "PAS_Box_1_Botao"
+}
