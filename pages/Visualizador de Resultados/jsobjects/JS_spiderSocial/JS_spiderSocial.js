@@ -131,8 +131,8 @@ export default {
         nameGap: 26,
         axisName: {
           color: "#333",
-          fontSize: 11,
-          lineHeight: 11,
+          fontSize: 12,
+          lineHeight: 15,
           formatter: name => name
         },
         indicator: indicators
