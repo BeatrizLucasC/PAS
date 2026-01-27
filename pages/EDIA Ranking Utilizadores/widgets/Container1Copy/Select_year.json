@@ -2,21 +2,18 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 10,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n(Qry_years.data &&\n Qry_years.data[0] &&\n Qry_years.data[0].ano)\n\t?\t\tString(Qry_years.data[0].ano)\n    : \"\" \n))(Select_year.options, Select_year.serverSideFiltering) }}",
   "dynamicBindingPathList": [
-    {
-      "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "sourceData"
     },
     {
       "key": "defaultOptionValue"
+    },
+    {
+      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -53,10 +50,10 @@
   "onOptionChange": "",
   "optionLabel": "label",
   "optionValue": "value",
-  "originalBottomRow": 16,
-  "originalTopRow": 12,
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
   "parentColumnSpace": 14.8564453125,
-  "parentId": "lbjrjlzxq6",
+  "parentId": "caf9x1fass",
   "parentRowSpace": 10,
   "placeholderText": "Selecione uma opção",
   "renderMode": "CANVAS",
@@ -64,7 +61,7 @@
   "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "{{\n  (Qry_years.data || [])\n    .filter(y => y && y.ano != null)\n    .map(y => ({\n      label: String(y.ano),\n      value: String(y.ano),\n    }))\n}}",
-  "topRow": 12,
+  "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "cax6swazs9",

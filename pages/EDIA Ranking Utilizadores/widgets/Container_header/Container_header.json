@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
-  "borderColor": "{{appsmith.theme.colors.primaryColor}}",
-  "borderRadius": "0.375rem",
-  "borderWidth": "2",
-  "bottomRow": 28,
-  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "backgroundColor": "url(https://consulai.com/wp-content/uploads/2026/01/5.png) no-repeat center top;background-size:100% 100%; \nbackground-position: center top",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 31,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 50,
+      "bottomRow": 230,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -26,7 +26,7 @@
       "flexLayers": [],
       "isLoading": false,
       "isVisible": true,
-      "key": "vs1x1v458g",
+      "key": "t1j4lg6d4i",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "0rr3lu293l",
+      "parentId": "90kc9kfwx0",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "yvtft0mu4b",
-      "widgetName": "Canvas20"
+      "widgetId": "iky9l1k0f1",
+      "widgetName": "Canvas17Copy"
     }
   ],
   "containerStyle": "card",
@@ -56,25 +56,35 @@
       "key": "borderColor"
     },
     {
-      "key": "backgroundColor"
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
-  "key": "2vmkotyao1",
-  "leftColumn": 47,
+  "key": "hx21tpyxpw",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "mobileBottomRow": 32,
+  "mobileBottomRow": 44,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 25,
-  "mobileTopRow": 22,
+  "mobileTopRow": 34,
   "needsErrorInfo": false,
+  "originalBottomRow": 68,
+  "originalTopRow": 45,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -82,9 +92,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 22,
+  "topRow": 8,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "0rr3lu293l",
-  "widgetName": "Cont_navegacao"
+  "widgetId": "90kc9kfwx0",
+  "widgetName": "Container_header"
 }
