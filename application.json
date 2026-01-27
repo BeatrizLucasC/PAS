@@ -42,10 +42,6 @@
       "isDefault": false
     },
     {
-      "id": "EDIA Home",
-      "isDefault": false
-    },
-    {
       "id": "EDIA Ranking Utilizadores",
       "isDefault": false
     },
@@ -62,7 +58,7 @@
       "isDefault": false
     },
     {
-      "id": "Home Copy",
+      "id": "EDIA Home",
       "isDefault": false
     }
   ],
