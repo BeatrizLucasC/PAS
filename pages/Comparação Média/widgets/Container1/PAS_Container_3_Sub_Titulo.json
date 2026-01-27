@@ -1,24 +1,28 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
-  "fontFamily": "Inter",
-  "fontSize": "1rem",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.25rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "a35yegm7q9",
-  "leftColumn": 10,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -27,23 +31,23 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 56,
-  "originalTopRow": 47,
+  "originalBottomRow": 49,
+  "originalTopRow": 45,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "0",
+  "parentId": "uhro07n0oy",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Nesta página, pode consultar a pontuação obtida no referencial, apresentada ao nível global, por domínio, categoria e indicador, bem como comparar o desempenho da sua exploração com a média das explorações avaliadas. Os resultados apenas ficam disponíveis após a validação das respostas ao formulário.",
+  "text": "Introdução",
   "textAlign": "CENTER",
-  "textColor": "#231f20",
-  "topRow": 47,
+  "textColor": "#15803d",
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ns2dph13rm",
-  "widgetName": "PAS_Conteiner_1_Destaque"
+  "widgetId": "stzsrrl2t9",
+  "widgetName": "PAS_Container_3_Sub_Titulo"
 }

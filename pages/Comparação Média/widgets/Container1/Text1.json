@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 29,
   "bottomRowBeforeCollapse": 63,
   "dynamicBindingPathList": [
     {
@@ -51,11 +51,11 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "originalBottomRow": 65,
-  "originalTopRow": 61,
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
   "overflow": "NONE",
   "parentColumnSpace": 14.8564453125,
-  "parentId": "0",
+  "parentId": "uhro07n0oy",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -65,11 +65,11 @@
   "text": "{{ Qry_visibilityIcon.data?.[0]?.is_validated \n  ? \"Respostas Validadas\"\n  : \"Respostas Pendentes de Validação\"\n}}",
   "textAlign": "CENTER",
   "textColor": "{{Qry_visibilityIcon.data?.[0]?.is_validated ? \"#231f20\" : \"#231f20\"}}",
-  "topRow": 62,
+  "topRow": 25,
   "topRowBeforeCollapse": 59,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "8azfrtmgv1",
+  "widgetId": "55llkem46f",
   "widgetName": "Text1"
 }
