@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 28,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -28,23 +28,23 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 23,
-  "originalTopRow": 5,
+  "originalBottomRow": 28,
+  "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "nf8vzzto1b",
+  "parentId": "1i4poak4bv",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "<p style=\"text-align: justify;\">As áreas e funcionalidades da plataforma organizam-se em três eixos principais. \n\nO formulário, que permite o preenchimento e edição da informação de forma simples e progressiva, com possibilidade de guardar e retomar o processo, a visualização dos resultados, que apresenta uma leitura estruturada do desempenho da exploração, com destaque para pontos fortes e oportunidades de melhoria por domínios de sustentabilidade, e a comparação com a média, que permite analisar o posicionamento da exploração face à média global das explorações avaliadas.</p>",
+  "text": "<p style=\"text-align: justify;\">As áreas e funcionalidades da plataforma da EDIA organizam-se em três eixos principais. \n\n<b>Validação e consulta das respostas:</b> permite analisar as respostas submetidas pelos utilizadores, verificar a sua conformidade e validar os dados, possibilitando também o acompanhamento do número de formulários entregues.<br><br><b>Análise detalhada dos resultados:</b> disponibiliza uma leitura estruturada por domínio, categoria e indicador, incluindo o acesso aos resultados por utilizador e à sua comparação com os resultados médios.<br><br><b>Ranking dos utilizadores:</b> apresenta o posicionamento de cada utilizador com base no desempenho global e nos diferentes domínios de sustentabilidade.</p>",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 5,
+  "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "p3c6f1gtnu",
+  "widgetId": "vehagz4nuy",
   "widgetName": "PAS_Container_2_Texto"
 }

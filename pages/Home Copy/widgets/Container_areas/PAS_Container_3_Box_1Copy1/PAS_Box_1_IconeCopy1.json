@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 8,
   "boxShadow": "none",
-  "defaultImage": "https://consulai.com/wp-content/uploads/2026/01/Sem-titulo-4-02-1.svg",
+  "defaultImage": "https://consulai.com/wp-content/uploads/2026/01/Sem-titulo-4-01-2.svg",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "tm0iqphkm6",
-  "leftColumn": 2,
+  "leftColumn": 1,
   "maxZoomLevel": 1,
   "mobileBottomRow": 12,
   "mobileLeftColumn": 2,
@@ -27,13 +27,13 @@
   "needsErrorInfo": false,
   "objectFit": "contain",
   "parentColumnSpace": 4.37371826171875,
-  "parentId": "5raw8w2c60",
+  "parentId": "hmvv8h5pow",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 20,
+  "rightColumn": 19,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "fco393cboa",
-  "widgetName": "PAS_Box_1_Icone"
+  "widgetId": "6dyygsswc9",
+  "widgetName": "PAS_Box_1_IconeCopy1"
 }

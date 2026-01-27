@@ -31,11 +31,11 @@
   "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "krhwr9sxu2",
+  "parentId": "e0e49cldj2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "Aceda a Todas as Áreas e Funcionalidades",
   "textAlign": "CENTER",
@@ -44,6 +44,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "1y9ogq7f7h",
+  "widgetId": "7isvcngnkg",
   "widgetName": "Text_subtitle"
 }

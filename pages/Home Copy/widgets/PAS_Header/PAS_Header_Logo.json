@@ -32,13 +32,13 @@
   "objectFit": "contain",
   "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.5,
-  "parentId": "6ufseo8hpr",
+  "parentId": "0138hc5ppi",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 4,
   "topRow": 1,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "z8fbqwlopv",
+  "widgetId": "mcrbooezgc",
   "widgetName": "PAS_Header_Logo"
 }

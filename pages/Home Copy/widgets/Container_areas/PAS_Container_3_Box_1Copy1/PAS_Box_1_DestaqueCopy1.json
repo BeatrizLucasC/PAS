@@ -34,19 +34,19 @@
   "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "pb17v67qxy",
+  "parentId": "hmvv8h5pow",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Comparação com Média",
+  "text": "Ranking dos utilizadores",
   "textAlign": "LEFT",
   "textColor": "#231f20",
   "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "gawtzcr3fs",
-  "widgetName": "PAS_Box_1_DestaqueCopy1Copy"
+  "widgetId": "o3rnqla4ro",
+  "widgetName": "PAS_Box_1_DestaqueCopy1"
 }

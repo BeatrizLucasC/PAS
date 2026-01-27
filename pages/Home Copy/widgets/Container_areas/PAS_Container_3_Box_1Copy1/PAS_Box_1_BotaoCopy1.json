@@ -33,7 +33,7 @@
       "isVisible": true,
       "label": "Aceder Aqui",
       "menuItems": {},
-      "onClick": "{{navigateTo('Comparação Média', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('EDIA Ranking Utilizadores', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     }
@@ -53,7 +53,7 @@
   "originalBottomRow": 24,
   "originalTopRow": 20,
   "parentColumnSpace": 15.78515625,
-  "parentId": "2um03ska8f",
+  "parentId": "hmvv8h5pow",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -61,6 +61,6 @@
   "topRow": 13,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "a9zdbptzq6",
+  "widgetId": "rdq17scx2r",
   "widgetName": "PAS_Box_1_BotaoCopy1"
 }

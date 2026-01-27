@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "a35yegm7q9",
-  "leftColumn": 2,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 13,
+  "originalBottomRow": 19,
   "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "5raw8w2c60",
+  "parentId": "3ww13ds0he",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Preenchimento do Formulário",
+  "text": "Análise detalhada dos resultados",
   "textAlign": "LEFT",
   "textColor": "#231f20",
   "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "sbpyyxpw4d",
-  "widgetName": "PAS_Box_1_Destaque"
+  "widgetId": "vlhs2o6l6p",
+  "widgetName": "PAS_Box_1_DestaqueCopy2"
 }

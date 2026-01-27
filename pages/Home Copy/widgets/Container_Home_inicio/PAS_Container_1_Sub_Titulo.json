@@ -32,7 +32,7 @@
   "originalTopRow": 7,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "nf8vzzto1b",
+  "parentId": "1i4poak4bv",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -45,6 +45,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "rphff907z5",
+  "widgetId": "48778z4wiv",
   "widgetName": "PAS_Container_1_Sub_Titulo"
 }

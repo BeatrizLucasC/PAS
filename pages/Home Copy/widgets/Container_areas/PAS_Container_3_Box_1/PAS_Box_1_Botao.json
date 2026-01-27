@@ -33,7 +33,7 @@
       "isVisible": true,
       "label": "Aceder Aqui",
       "menuItems": {},
-      "onClick": "{{navigateTo('Comparação Média', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('EDIA Validação e Consulta', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     }
@@ -50,10 +50,10 @@
   "mobileTopRow": 43,
   "needsErrorInfo": false,
   "orientation": "horizontal",
-  "originalBottomRow": 24,
-  "originalTopRow": 20,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
   "parentColumnSpace": 15.78515625,
-  "parentId": "pb17v67qxy",
+  "parentId": "kdbx3pgl7o",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -61,6 +61,6 @@
   "topRow": 13,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "8d3sd802iq",
-  "widgetName": "PAS_Box_1_BotaoCopy1Copy"
+  "widgetId": "81ei0wdkc0",
+  "widgetName": "PAS_Box_1_Botao"
 }

@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "r17cpu5t9x",
+      "parentId": "0u67wwxef4",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,7 +46,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "rnnvnmvb2o",
+      "widgetId": "tvzxn8lucc",
       "widgetName": "Canvas19Copy1"
     }
   ],
@@ -81,6 +81,6 @@
   "topRow": 105,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "r17cpu5t9x",
+  "widgetId": "0u67wwxef4",
   "widgetName": "Container_barra_financiamento"
 }
