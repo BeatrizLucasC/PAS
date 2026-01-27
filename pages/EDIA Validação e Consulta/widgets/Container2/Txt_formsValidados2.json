@@ -15,9 +15,6 @@
     },
     {
       "key": "text"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -49,7 +46,7 @@
   "shouldTruncate": false,
   "text": "{{\n  (\n    (Qry_formsValidados.data || [])\n      .find(r => r.ano == Select_year.selectedOptionValue)?.total_formularios_validados ?? 0\n  )\n}}",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#231f20",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

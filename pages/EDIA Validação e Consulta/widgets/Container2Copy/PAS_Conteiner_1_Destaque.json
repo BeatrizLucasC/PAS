@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a35yegm7q9",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "originalBottomRow": 34,
+  "originalTopRow": 2,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.2841796875,
+  "parentId": "8moogx7a2m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "<b>Página de controlo:</b> Apresenta o estado de validação do formulários submetidos, incluindo o número de respostas validadas e por validar de cada utilizador.\n\n<b>Dados Iniciais - utilizador:</b> Apresenta os dados inciais selecionados pelo utilizador, na primeira página do formulário.\n\n<b>Validar:</b> Apresenta as respostas às perguntas do formulário preenchido por cada utilizador, permitindo a sua validação.\n\n<b>Consultar respostas:</b> Permite visualizar todas as respostas dos utilizadores, incluindo aquelas atribuídas automaticamente com base nas certificações selecionadas.",
+  "textAlign": "LEFT",
+  "textColor": "#231f20",
+  "topRow": 2,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "d33bz86c28",
+  "widgetName": "PAS_Conteiner_1_Destaque"
+}

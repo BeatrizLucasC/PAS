@@ -1,55 +1,54 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 43,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     },
     {
-      "key": "text"
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "BOLD",
+  "fontFamily": "Rubik",
+  "fontSize": "1.25rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "mv3usn08hm",
+  "key": "aranrxpp2a",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 5,
-  "mobileLeftColumn": 20,
-  "mobileRightColumn": 36,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
-  "originalTopRow": 0,
+  "originalBottomRow": 38,
+  "originalTopRow": 34,
   "overflow": "NONE",
-  "parentColumnSpace": 19.5,
-  "parentId": "24tfelq3pj",
+  "parentColumnSpace": 1.845703125,
+  "parentId": "60eaoi9fu4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{'Total de formulários validados em ' + Select_year.selectedOptionValue + ': '}}",
-  "textAlign": "LEFT",
-  "textColor": "#231f20",
-  "topRow": 0,
+  "text": "Pontuação Por Categoria",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 39,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "eqoy29kjwr",
-  "widgetName": "Txt_formsValidados"
+  "widgetId": "p4msqf0ibi",
+  "widgetName": "Text_Social2"
 }

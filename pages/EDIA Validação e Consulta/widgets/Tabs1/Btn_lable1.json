@@ -10,10 +10,10 @@
   "displayName": "Button",
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
