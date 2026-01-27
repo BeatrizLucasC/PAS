@@ -1,24 +1,22 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "fontFamily"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "fontSize"
-    }
-  ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "Poppins",
-  "fontSize": "0.85rem",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.875rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
@@ -32,23 +30,23 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 4,
-  "originalTopRow": 0,
+  "originalBottomRow": 10,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
-  "parentId": "0",
+  "parentId": "uhro07n0oy",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "I N T R O D U Ç Ã O",
+  "text": "Compare a Sua Pontuação Com a Média",
   "textAlign": "CENTER",
-  "textColor": "#8ac040",
-  "topRow": 36,
+  "textColor": "#231f20",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "xx8pxb379w",
-  "widgetName": "PAS_Container_3_Sub_Titulo"
+  "widgetId": "hyxiq34bh7",
+  "widgetName": "PAS_Container_3_Titulo"
 }
