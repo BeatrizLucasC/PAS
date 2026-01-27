@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 18,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,20 +30,20 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 18,
-  "originalTopRow": 6,
+  "originalBottomRow": 15,
+  "originalTopRow": 7,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
   "parentId": "nf8vzzto1b",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 25,
+  "rightColumn": 28,
   "shouldTruncate": false,
   "text": "Bem-Vindo à Plataforma do Programa Alqueva Sustentável",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 6,
+  "topRow": 7,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

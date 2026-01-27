@@ -13,7 +13,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "t1m2qh2q05",
-  "leftColumn": 30,
+  "leftColumn": 31,
   "minWidth": 450,
   "mobileBottomRow": 311,
   "mobileLeftColumn": 24,
@@ -27,7 +27,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
+  "rightColumn": 33,
   "searchTags": [
     "line"
   ],
