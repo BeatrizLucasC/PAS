@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "boxShadow": "none",
-  "defaultImage": "https://consulai.com/wp-content/uploads/2026/01/Ativo-4.svg",
+  "defaultImage": "https://consulai.com/wp-content/uploads/2026/01/Ativo-3-2.svg",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
