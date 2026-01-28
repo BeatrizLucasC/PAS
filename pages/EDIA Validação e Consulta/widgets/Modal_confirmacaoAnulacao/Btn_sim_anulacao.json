@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 19,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -44,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Sim",
-  "topRow": 13,
+  "topRow": 15,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8cvvzg1sii",
