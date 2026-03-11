@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 24,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "text": "<p style=\"text-align: justify;\">O programa é uma iniciativa de cariz voluntário promovida pela EDIA - dirigida aos agricultores da região do Empreendimento de Fins Múltiplos do Alqueva - com o objetivo de promover a sustentabilidade do setor primário.<p>",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 12,
+  "topRow": 15,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

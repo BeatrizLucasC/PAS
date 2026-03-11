@@ -4,7 +4,7 @@
   "borderColor": "#233444",
   "borderRadius": "0px",
   "borderWidth": "1",
-  "bottomRow": 290,
+  "bottomRow": 199,
   "boxShadow": "none",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "fe6yess7id",
+      "parentId": "3oevgsz208",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "25frxnc9t9",
-      "widgetName": "Canvas19"
+      "widgetId": "x9sh9t1zm4",
+      "widgetName": "Canvas19Copy1"
     }
   ],
   "containerStyle": "card",
@@ -69,8 +69,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 174,
   "needsErrorInfo": false,
-  "originalBottomRow": 290,
-  "originalTopRow": 268,
+  "originalBottomRow": 199,
+  "originalTopRow": 177,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -78,9 +78,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 268,
+  "topRow": 177,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "fe6yess7id",
+  "widgetId": "3oevgsz208",
   "widgetName": "Container_barra_financiamento"
 }

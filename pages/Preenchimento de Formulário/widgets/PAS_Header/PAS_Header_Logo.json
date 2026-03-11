@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultImage": "https://consulai.com/wp-content/uploads/2026/03/alqueva-sustentavel-2025-cor.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tjs6l35eu4",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "7o04orw6j6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 11,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "s023aaszsv",
+  "widgetName": "PAS_Header_Logo"
+}

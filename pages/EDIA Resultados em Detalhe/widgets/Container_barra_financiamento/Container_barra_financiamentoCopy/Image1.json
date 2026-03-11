@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultImage": "https://consulai.com/wp-content/uploads/2026/03/ALENTEJO2030_Barras-de-cofinanciamento_01-01-1.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sagrot6ah1",
+  "leftColumn": 1,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 19.5,
+  "parentId": "3pb5swuchr",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "topRow": 1,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "0cbj58adl8",
+  "widgetName": "Image1"
+}

@@ -3,7 +3,7 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "0px",
-  "bottomRow": 75,
+  "bottomRow": 81,
   "boxShadow": "none",
   "chartData": {
     "daky6d1lh1": {
@@ -91,8 +91,8 @@
   "mobileRightColumn": 53,
   "mobileTopRow": 1,
   "needsErrorInfo": true,
-  "originalBottomRow": 75,
-  "originalTopRow": 47,
+  "originalBottomRow": 81,
+  "originalTopRow": 53,
   "parentColumnSpace": 13.796875,
   "parentId": "wo40px8ef8",
   "parentRowSpace": 10,
@@ -101,7 +101,7 @@
   "rightColumn": 61,
   "setAdaptiveYMin": false,
   "showDataPointLabel": true,
-  "topRow": 47,
+  "topRow": 53,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "z7ym5n9puw",

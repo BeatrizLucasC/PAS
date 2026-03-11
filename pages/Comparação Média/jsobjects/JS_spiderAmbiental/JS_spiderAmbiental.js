@@ -63,7 +63,7 @@ export default {
       max: maxCalc
     }));
 
-    const COLOR_USER = "#8ac040";
+    const COLOR_USER = "#15803d";
     const COLOR_MEDIA = "#233444";
 
     // Tooltip só para o indicador atual

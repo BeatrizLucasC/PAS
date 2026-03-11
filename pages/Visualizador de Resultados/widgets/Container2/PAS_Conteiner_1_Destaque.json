@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 22,
+  "bottomRow": 30,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 22,
-  "originalTopRow": 13,
+  "originalBottomRow": 30,
+  "originalTopRow": 21,
   "overflow": "NONE",
   "parentColumnSpace": 9.2841796875,
   "parentId": "ai45652al4",
@@ -43,7 +43,7 @@
   "text": "Nesta página, pode consultar a pontuação obtida no referencial, apresentada ao nível global, por domínio, categoria e indicador. Os separadores dos domínios ambiental, social e económico apenas ficam disponíveis após a submissão das respostas aos formulários correspondentes, acessíveis na página de preenchimento de formulário.",
   "textAlign": "CENTER",
   "textColor": "#231f20",
-  "topRow": 13,
+  "topRow": 21,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

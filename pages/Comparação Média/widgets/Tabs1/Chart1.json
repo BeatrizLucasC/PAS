@@ -91,6 +91,7 @@
       "key": "customEChartConfig"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
