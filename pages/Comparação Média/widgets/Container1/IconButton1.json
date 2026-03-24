@@ -4,7 +4,7 @@
   "bottomRow": 25,
   "bottomRowBeforeCollapse": 61,
   "boxShadow": "none",
-  "buttonColor": "{{Qry_visibilityIcon.data?.[0]?.is_validated ? \"#43A047\" : \"#F9A825\"}}",
+  "buttonColor": "{{Qry_visibilityIcon.data?.[0]?.is_validated ? \"#43A047\" : \"transparent\"}}",
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [
     {

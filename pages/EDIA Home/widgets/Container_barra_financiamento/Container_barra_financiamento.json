@@ -2,9 +2,9 @@
   "animateLoading": true,
   "backgroundColor": "#233444",
   "borderColor": "#233444",
-  "borderRadius": "0px",
+  "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 133,
+  "bottomRow": 127,
   "boxShadow": "none",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "oeqito9sgd",
+      "parentId": "ns85xyi54x",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,7 +46,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "6j1n9mx2xv",
+      "widgetId": "uxcdvqrv22",
       "widgetName": "Canvas19Copy1"
     }
   ],
@@ -78,9 +78,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 111,
+  "topRow": 105,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "oeqito9sgd",
+  "widgetId": "ns85xyi54x",
   "widgetName": "Container_barra_financiamento"
 }

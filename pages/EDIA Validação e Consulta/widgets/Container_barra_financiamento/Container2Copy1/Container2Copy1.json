@@ -16,7 +16,7 @@
       "leftColumn": 0,
       "minHeight": 76.5,
       "parentColumnSpace": 1,
-      "parentId": "wjbtp3v5dz",
+      "parentId": "4wassrxlg5",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -29,8 +29,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "vb0lfnp8zb",
-      "widgetName": "Canvas17Copy1"
+      "widgetId": "66tmp1nrx7",
+      "widgetName": "Canvas17Copy3"
     }
   ],
   "containerStyle": "card",
@@ -61,7 +61,7 @@
   "originalBottomRow": 20,
   "originalTopRow": 1,
   "parentColumnSpace": 1.3359375,
-  "parentId": "fla2x6pnw8",
+  "parentId": "v3b96nwzy3",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -80,6 +80,6 @@
   "topRow": 1,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "wjbtp3v5dz",
+  "widgetId": "4wassrxlg5",
   "widgetName": "Container2Copy1"
 }

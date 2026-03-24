@@ -2,9 +2,9 @@
   "animateLoading": true,
   "backgroundColor": "#233444",
   "borderColor": "#233444",
-  "borderRadius": "0px",
+  "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 207,
+  "bottomRow": 194,
   "boxShadow": "none",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "jh96cxki37",
+      "parentId": "44c36rp5gv",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,7 +46,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "fla2x6pnw8",
+      "widgetId": "v3b96nwzy3",
       "widgetName": "Canvas19Copy1"
     }
   ],
@@ -69,8 +69,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 174,
   "needsErrorInfo": false,
-  "originalBottomRow": 207,
-  "originalTopRow": 185,
+  "originalBottomRow": 194,
+  "originalTopRow": 172,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -78,9 +78,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 185,
+  "topRow": 172,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "jh96cxki37",
+  "widgetId": "44c36rp5gv",
   "widgetName": "Container_barra_financiamento"
 }

@@ -2,6 +2,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
+  "disableLink": false,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -34,7 +35,7 @@
   "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 1.3359375,
-  "parentId": "e900l15yon",
+  "parentId": "hoywja9419",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -47,6 +48,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "dlxgriayhs",
+  "widgetId": "ixnl5x873f",
   "widgetName": "Telefone_textCopy"
 }

@@ -34,7 +34,7 @@
   "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 1.3359375,
-  "parentId": "vb0lfnp8zb",
+  "parentId": "66tmp1nrx7",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -47,6 +47,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "k8rfi0jqc3",
+  "widgetId": "2vk4yp257z",
   "widgetName": "Telefone_textCopy"
 }

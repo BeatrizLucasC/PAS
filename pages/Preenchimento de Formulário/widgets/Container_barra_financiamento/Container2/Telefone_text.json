@@ -34,7 +34,7 @@
   "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 1.3359375,
-  "parentId": "e900l15yon",
+  "parentId": "hoywja9419",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -47,6 +47,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "yq8c9p8dfk",
+  "widgetId": "xnr651fplk",
   "widgetName": "Telefone_text"
 }
