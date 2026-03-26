@@ -42,7 +42,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 53,
   "shouldTruncate": false,
-  "text": "<a href=\"https://www.edia.pt/pt/\" style=\"color:white\">EDIA</a>",
+  "text": "<a href=\"https://www.edia.pt/pt/\" style=\"color:white\">Contactos:</a>",
   "textAlign": "RIGHT",
   "textColor": "#ffffff",
   "topRow": 0,
@@ -50,5 +50,5 @@
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "zdw1lyxhs1",
-  "widgetName": "Telefone_textCopy"
+  "widgetName": "Contactos_text"
 }
