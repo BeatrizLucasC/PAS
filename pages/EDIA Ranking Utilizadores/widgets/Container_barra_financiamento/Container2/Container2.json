@@ -3,7 +3,7 @@
   "backgroundColor": "transparent",
   "borderColor": "transparent",
   "borderWidth": "1",
-  "bottomRow": 20,
+  "bottomRow": 19,
   "boxShadow": "NONE",
   "children": [
     {
@@ -16,7 +16,7 @@
       "leftColumn": 0,
       "minHeight": 76.5,
       "parentColumnSpace": 1,
-      "parentId": "1hkg40qyuq",
+      "parentId": "1ucq5utgqu",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -29,7 +29,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "04u5kyn5r2",
+      "widgetId": "dumwzesiqa",
       "widgetName": "Canvas17Copy3"
     }
   ],
@@ -46,7 +46,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "1fhucbpzgf",
-  "leftColumn": 46,
+  "leftColumn": 52,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -58,10 +58,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 20,
-  "originalTopRow": 1,
+  "originalBottomRow": 19,
+  "originalTopRow": 0,
   "parentColumnSpace": 1.3359375,
-  "parentId": "2orbo1vns9",
+  "parentId": "p0d1p00esm",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -77,9 +77,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 1,
+  "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "1hkg40qyuq",
+  "widgetId": "1ucq5utgqu",
   "widgetName": "Container2"
 }

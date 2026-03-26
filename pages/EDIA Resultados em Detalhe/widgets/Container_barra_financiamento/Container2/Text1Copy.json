@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 75,
+  "bottomRow": 12,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6rz2cawued",
-  "leftColumn": 0,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "originalBottomRow": 13,
+  "originalBottomRow": 12,
   "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 1.3359375,
-  "parentId": "9y9wfl30xq",
+  "parentId": "bx393p4jlv",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53.89473684210526,
+  "rightColumn": 53,
   "shouldTruncate": false,
-  "text": "E-mail:   geral@edia.pt",
-  "textAlign": "LEFT",
+  "text": "edia@edia.pt",
+  "textAlign": "RIGHT",
   "textColor": "#ffffff",
-  "topRow": 35,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "s1cw7y72xz",
+  "widgetId": "9kab5rkugp",
   "widgetName": "Text1Copy"
 }

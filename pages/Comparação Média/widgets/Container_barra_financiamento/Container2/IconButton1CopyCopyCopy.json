@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "buttonColor": "transparent",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "geolocation",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eendgn6cnb",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://regante.edia.pt/app/regante-publico/sededelegacoes-659e6ec2ce6d920437ef5031', {}, 'NEW_WINDOW');}}",
+  "parentColumnSpace": 5.171875,
+  "parentId": "vt39wiefet",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 13,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "uu59u7ul2o",
+  "widgetName": "IconButton1CopyCopyCopy"
+}

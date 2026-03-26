@@ -3,11 +3,11 @@
   "backgroundColor": "transparent",
   "borderColor": "transparent",
   "borderWidth": "1",
-  "bottomRow": 83,
+  "bottomRow": 19,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 820,
+      "bottomRow": 190,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -16,7 +16,7 @@
       "leftColumn": 0,
       "minHeight": 76.5,
       "parentColumnSpace": 1,
-      "parentId": "trf43l0tqb",
+      "parentId": "4vl7ixgblf",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -29,7 +29,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "9y9wfl30xq",
+      "widgetId": "bx393p4jlv",
       "widgetName": "Canvas17Copy3"
     }
   ],
@@ -46,7 +46,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "1fhucbpzgf",
-  "leftColumn": 62,
+  "leftColumn": 52,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -58,10 +58,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 21,
-  "originalTopRow": 1,
+  "originalBottomRow": 19,
+  "originalTopRow": 0,
   "parentColumnSpace": 1.3359375,
-  "parentId": "xdfw47smn5",
+  "parentId": "pllqvahspv",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -77,9 +77,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 1,
+  "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "trf43l0tqb",
+  "widgetId": "4vl7ixgblf",
   "widgetName": "Container2"
 }

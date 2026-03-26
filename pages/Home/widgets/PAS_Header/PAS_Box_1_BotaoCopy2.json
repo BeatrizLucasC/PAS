@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 9,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -84,7 +84,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "7m9sh3uz3q",
-  "leftColumn": 59,
+  "leftColumn": 58,
   "minWidth": 450,
   "mobileBottomRow": 47,
   "mobileLeftColumn": 15,
@@ -99,10 +99,10 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
-  "topRow": 3,
+  "rightColumn": 62,
+  "topRow": 5,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "1zicf0sczp",
+  "widgetId": "im9cjjzizx",
   "widgetName": "PAS_Box_1_BotaoCopy2"
 }

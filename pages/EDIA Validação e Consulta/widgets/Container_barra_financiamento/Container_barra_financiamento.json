@@ -4,7 +4,7 @@
   "borderColor": "#233444",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 194,
+  "bottomRow": 195,
   "boxShadow": "none",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "44c36rp5gv",
+      "parentId": "7d0fqihy04",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,7 +46,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "v3b96nwzy3",
+      "widgetId": "xjwvt15rre",
       "widgetName": "Canvas19Copy1"
     }
   ],
@@ -69,8 +69,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 174,
   "needsErrorInfo": false,
-  "originalBottomRow": 194,
-  "originalTopRow": 172,
+  "originalBottomRow": 195,
+  "originalTopRow": 173,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -78,9 +78,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 172,
+  "topRow": 173,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "44c36rp5gv",
+  "widgetId": "7d0fqihy04",
   "widgetName": "Container_barra_financiamento"
 }

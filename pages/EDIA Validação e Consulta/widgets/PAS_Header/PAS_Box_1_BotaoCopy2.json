@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 9,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -44,8 +44,8 @@
           "index": 3,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Ranking dos utilizadores",
-          "onClick": "{{navigateTo('EDIA Ranking Utilizadores', {}, 'SAME_WINDOW');}}",
+          "label": "Comparação com Média",
+          "onClick": "{{navigateTo('Comparação Média', {}, 'SAME_WINDOW');}}",
           "widgetId": "w91p9fj557"
         },
         "menuItemjmwdd0crbi": {
@@ -53,8 +53,8 @@
           "index": 1,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Validação e consulta das respostas",
-          "onClick": "{{navigateTo('EDIA Validação e Consulta', {}, 'SAME_WINDOW');}}",
+          "label": "Preenchimento de Formulário",
+          "onClick": "{{navigateTo('Preenchimento de Formulário', {}, 'SAME_WINDOW');}}",
           "widgetId": "nn7ufevxku"
         },
         "menuItemjtierhlnw3": {
@@ -63,7 +63,7 @@
           "isDisabled": false,
           "isVisible": true,
           "label": "Home Page",
-          "onClick": "{{navigateTo('EDIA Home', {}, 'SAME_WINDOW');}}",
+          "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
           "widgetId": "rhjk5pqj56"
         },
         "menuItemonitffbukz": {
@@ -71,8 +71,8 @@
           "index": 2,
           "isDisabled": false,
           "isVisible": true,
-          "label": "Análise detalhada dos resultados",
-          "onClick": "{{navigateTo('EDIA Resultados em Detalhe', {}, 'SAME_WINDOW');}}",
+          "label": "Visualizador de Resultados",
+          "onClick": "{{navigateTo('Visualizador de Resultados', {}, 'SAME_WINDOW');}}",
           "widgetId": "c81aiyycme"
         }
       },
@@ -84,7 +84,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "7m9sh3uz3q",
-  "leftColumn": 59,
+  "leftColumn": 58,
   "minWidth": 450,
   "mobileBottomRow": 47,
   "mobileLeftColumn": 15,
@@ -95,14 +95,14 @@
   "originalBottomRow": 17,
   "originalTopRow": 13,
   "parentColumnSpace": 15.78515625,
-  "parentId": "6pfvq2axjg",
+  "parentId": "8a8qd00ww0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
-  "topRow": 3,
+  "rightColumn": 62,
+  "topRow": 5,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "sq2rpa26if",
-  "widgetName": "PAS_Box_1_BotaoCopy2Copy"
+  "widgetId": "md5g4bak17",
+  "widgetName": "PAS_Box_1_BotaoCopy2"
 }

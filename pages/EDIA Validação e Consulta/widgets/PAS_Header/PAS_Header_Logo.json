@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultImage": "",
   "dynamicBindingPathList": [
@@ -32,13 +32,13 @@
   "objectFit": "contain",
   "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.5,
-  "parentId": "6pfvq2axjg",
+  "parentId": "8a8qd00ww0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 11,
+  "rightColumn": 14,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "6v2t3ha76s",
+  "widgetId": "vop087tuqg",
   "widgetName": "PAS_Header_Logo"
 }

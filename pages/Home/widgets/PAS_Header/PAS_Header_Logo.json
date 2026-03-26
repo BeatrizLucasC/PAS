@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultImage": "",
   "dynamicBindingPathList": [
@@ -35,10 +35,10 @@
   "parentId": "grj82o5eeo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 11,
+  "rightColumn": 14,
   "topRow": 0,
   "type": "IMAGE_WIDGET",
   "version": 1,
-  "widgetId": "o0la7ssxzf",
+  "widgetId": "nhlli9e3by",
   "widgetName": "PAS_Header_Logo"
 }

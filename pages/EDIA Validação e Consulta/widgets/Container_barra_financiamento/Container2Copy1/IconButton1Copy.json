@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "buttonColor": "transparent",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "envelope",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eendgn6cnb",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('edia@edia.pt', {}, 'NEW_WINDOW');}}",
+  "parentColumnSpace": 5.171875,
+  "parentId": "9s8mfhjavc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 8,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6jagnw6ppy",
+  "widgetName": "IconButton1Copy"
+}

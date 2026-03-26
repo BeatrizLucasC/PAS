@@ -4,7 +4,7 @@
   "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 105,
+  "bottomRow": 107,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -87,7 +87,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 66,
+  "topRow": 68,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "wwhettehgr",

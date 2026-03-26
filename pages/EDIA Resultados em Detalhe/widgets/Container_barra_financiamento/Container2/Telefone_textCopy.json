@@ -1,7 +1,8 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 4,
+  "disableLink": true,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,6 +15,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
@@ -21,7 +23,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6rz2cawued",
-  "leftColumn": 0,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -34,19 +36,19 @@
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 1.3359375,
-  "parentId": "9y9wfl30xq",
+  "parentId": "bx393p4jlv",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53.89473684210526,
+  "rightColumn": 53,
   "shouldTruncate": false,
-  "text": "EDIA",
-  "textAlign": "LEFT",
+  "text": "<a href=\"https://www.edia.pt/pt/\" style=\"color:white\">EDIA</a>",
+  "textAlign": "RIGHT",
   "textColor": "#ffffff",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "fm8rx0staw",
+  "widgetId": "zdw1lyxhs1",
   "widgetName": "Telefone_textCopy"
 }
