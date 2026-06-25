@@ -124,7 +124,7 @@ export default {
 
   // 4) Label da pergunta
   questionLabel: (row) =>
-    row ? `${row.id_pergunta || ""} ${row.pergunta || ""}` : "",
+    row ? `${row.pergunta || ""}` : "",
 
   // 5) Opções do Radio
   radioOptions(row) {

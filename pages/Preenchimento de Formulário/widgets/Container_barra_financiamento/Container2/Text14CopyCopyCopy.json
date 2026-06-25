@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 18,
   "disableLink": false,
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -53,7 +53,7 @@
   "text": "<a href=\"https://regante.edia.pt/app/regante-publico/sededelegacoes-659e6ec2ce6d920437ef5031\" style=\"color:white\">Rua Zeca Afonso, 2 7800-522 Beja</a>",
   "textAlign": "RIGHT",
   "textColor": "#ffffff",
-  "topRow": 12,
+  "topRow": 13,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
